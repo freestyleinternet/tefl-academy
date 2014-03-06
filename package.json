@@ -1,5 +1,5 @@
 {
-  "name": "wordpress-starter-theme",
+  "name": "custombuild",
   "version": "1.0.0",
   "dependencies": {
     "load-grunt-tasks": "~0.2.1"

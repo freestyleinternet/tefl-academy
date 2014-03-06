@@ -21,6 +21,8 @@ module.exports = function(grunt) {
                 files: ['style.css', 'assets/js/*.js', '*.html', '*.php', 'assets/images/**/*.{png,jpg,jpeg,gif,webp,svg}']
             }
         },
+		
+		
 
         // compass and scss
         compass: {
