@@ -8,7 +8,16 @@ $pageWidth: 1000px;
 $selectionColor: orange;
 
 // Links
-$linkColor: red;
-$linkHoverColor: blue;
+$linkColor:#5f9531;
+$linkHoverColor: #acc026;
 
 // Other
+$brand-light:#acc026;
+$brand-dark:#5f9531;
+$brand-lighter:#dde2bc;
+$brand-orange:#f7931e;
+$body-copy:#333333;
+
+// Path to images
+// Use #{$assetPath}/
+$assetPath : "assets/images";

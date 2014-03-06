@@ -1,1 +1,64 @@
 /* FORMS */
+input {
+	width:100%;
+	min-height:50px;
+	padding-left:16px;
+	padding-right:16px;
+	color:#000;
+	font-size:em(24);
+	border:none;
+	background:#fff;
+	box-sizing:border-box;
+}
+
+.search-form {
+	position:relative;
+	input {
+		float:right;
+		min-height:30px;
+		padding:em(5) 8% em(5) 2%;
+		color:$brand-dark;
+		font-size:em(16);
+		background:rgba(172, 192, 38, 0.2);
+		@include bp(tablet) {
+			width:32.11991434689507%; /*  150 / 467 */
+		}
+	}
+	input[type=submit] {
+		position:absolute;
+		top:0;
+		right:0;
+		width:30px;
+		height:30px;
+		display:block;
+		padding:0;
+		background:$brand-dark url(#{$assetPath}/mag-glass.svg) no-repeat center center;
+	}
+}
+.searchmobile  {
+	width:90%;
+	display:block;
+	margin:0 auto;
+	.search-form {
+		float:left;
+		width:100%;
+		margin-top:em(24);
+	}
+}
+
+.newsletter-box form {
+	padding:0 16px;
+	input {
+		margin-bottom:em(15);
+	}
+	input[type=email] {
+		width:66%;
+	}
+	input[type=submit] {
+		float:right;
+		width:30%;
+		min-height:50px;
+		font-size:em(24);
+		background:$brand-orange;
+	}
+}

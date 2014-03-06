@@ -1,0 +1,122 @@
+.cycle-prev,
+.cycle-next {
+	width:50px;
+	height:50px;
+	margin-top:em(-25);
+	filter: alpha(opacity=50);
+	opacity:0.5;
+	@include transition (opacity 0.5s ease-in-out);
+	cursor:pointer;
+	z-index:200;
+	&:hover {
+		filter: alpha(opacity=1);
+		opacity:1;
+	}
+}
+.cycle-prev {
+	position:absolute;
+	top:50%;
+	left:0;
+	background:$brand-light url(#{$assetPath}/arrow-left.svg) no-repeat center center;
+}
+.cycle-next {
+	position:absolute;
+	top:50%;
+	right:0;
+	background:$brand-light url(#{$assetPath}/arrow-right.svg) no-repeat center center;
+}
+
+.cycle-pager {
+	position:absolute;
+	bottom:em(20);
+	right:em(20);
+	z-index:200;
+	span {
+		display: block;
+		float: left;
+		width: 13px;
+		height: 13px;
+		text-indent: -999em;
+		background: $brand-light;
+		border-radius: 13px;
+		-moz-border-radius: 13px;
+		-webkit-border-radius: 13px;
+		margin-right: 10px;
+		@include transition (background 0.5s ease-in-out);
+		cursor:pointer;
+		&.cycle-pager-active,
+		&:hover {
+			background: $brand-orange;
+		}
+	}
+}
+
+/*  Testimonails slider home page */
+.slide {
+	width:100%;
+	display:inline-block;
+	img {
+		width:50%;
+	}
+	.text {
+		position:relative;
+		top:em(-12);
+		p {
+			float:left;
+			width:100%;
+			font-size:em(14);
+			line-height:20px;
+			margin-bottom:em(25);
+			@include bp(tablet) {
+				width:78%;
+				margin-left:2%;
+			}
+			@include bp(desktop) {
+				width:50%;
+				margin-left:0;
+			}
+			&:last-of-type {
+				margin-bottom:em(33);
+			}
+		}
+		img {
+			float:right;
+			display:none;
+			@include bp(desktop) {
+				display:inline-block;
+			}
+		}
+		.button-light {
+			float:right;
+		}
+	}
+}
+
+#next,
+#prev {
+	position:absolute;
+	top:10%;	
+	width:50px;
+	height:50px;
+	display:block;
+	cursor:pointer;
+	z-index:2000;
+	@include bp(tablet) {
+		top:50%;	
+		margin-top:em(-25);
+	}
+}
+#next {
+	left:0;
+	background:$brand-light url(#{$assetPath}/arrow-left.svg) no-repeat center center;
+	@include bp(desktop) {
+		left:-78px;
+	}
+}
+#prev {	
+	right:0;
+	background:$brand-light url(#{$assetPath}/arrow-right.svg) no-repeat center center;
+	@include bp(desktop) {
+		right:-78px;
+	}
+}
