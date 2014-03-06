@@ -40,6 +40,7 @@
     <![endif]-->
     
     <header>
+    	<a class="verticalmoneyoff orange" href="#"><strong>50%</strong> OFF</a>
     	<div class="wrapper">
         	<div class="m1 t1-t2 d1-d2 box">
             	<div class="contact displaymobile">
@@ -122,6 +123,7 @@
     
     <div class="wrapper">
         <div class="m1-all tb1 db1 banner displaydesktop">
+        	<a class="vertical orange" href="#">Chat with us</a>
         	<h1>Live your teaching dreams...</h1>
             <div class="info">
             	<h2>Welcome to the TEFL Academy</h2>
@@ -296,38 +298,39 @@
         <div class="wrapper">
       		<div class="m1 t1 d1 box">
                 <ul>
-                	<li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
+                	<li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Jobs</a></li>
                 </ul>
             </div>
             <div class="m1 t2 d2 box">
                 <ul>
-                	<li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
+                	<li><a href="#">FAQs</a></li>
+                    <li><a href="#">Course Locations</a></li>
+                    <li><a href="#">Course Information</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Enrol</a></li>
                 </ul>
             </div>
             <div class="m1 t3 d3 box">
                 <ul>
-                	<li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
+                	<li><a href="#">Teaching in Asia</a></li>
+                    <li><a href="#">Teaching in Latin America</a></li>
+                    <li><a href="#">Teaching in Europe</a></li>
+                    <li><a href="#">Teaching in the Middle East</a></li>
+                    <li><a href="#">Teaching without a Degree</a></li>
                 </ul>
             </div>
             <div class="m1 t4 d4 box">
                 <ul>
-                	<li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
-                    <li><a href="#">Footer link</a></li>
+                	<li><a href="#">Accreditation</a></li>
+                    <li><a href="#">Download Prospectus</a></li>
+                    <li><a href="#">Student Advice Centre</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Statement</a></li>
                 </ul>
             </div>  
         </div>

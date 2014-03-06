@@ -10,4 +10,9 @@ $('.toggle').click(function()
 	return false;
 });
 
+// Moving 50% offer box on screen scroll
+$(window).scroll(function(){
+  $(".verticalmoneyoff").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+});
+
 })(jQuery);
