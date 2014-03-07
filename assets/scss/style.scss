@@ -18,6 +18,7 @@ Version: 1.0
 @import "partials/mixins";
 @import "partials/variables";
 @import "partials/normalize";
+@import "partials/uniform";
 
 // Globals
 @import "partials/global";
@@ -25,6 +26,7 @@ Version: 1.0
 // Page and Site Styles
 @import "partials/page";
 @import "partials/posts";
+@import "partials/jobs";
 @import "partials/search";
 @import "partials/slideshow";
 @import "partials/nav";

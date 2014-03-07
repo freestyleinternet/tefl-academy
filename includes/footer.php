@@ -1,6 +1,6 @@
     <footer>
         <div class="wrapper">
-      		<div class="m1 t1 d1 box">
+      		<div class="m1 s1 t1 d1 box">
                 <ul>
                 	<li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
@@ -10,7 +10,7 @@
                     <li><a href="#">Jobs</a></li>
                 </ul>
             </div>
-            <div class="m1 t2 d2 box">
+            <div class="m1 s2 t2 d2 box">
                 <ul>
                 	<li><a href="#">FAQs</a></li>
                     <li><a href="#">Course Locations</a></li>
@@ -19,7 +19,7 @@
                     <li><a href="#">Enrol</a></li>
                 </ul>
             </div>
-            <div class="m1 t3 d3 box">
+            <div class="m1 s1 t3 d3 box">
                 <ul>
                 	<li><a href="#">Teaching in Asia</a></li>
                     <li><a href="#">Teaching in Latin America</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="#">Teaching without a Degree</a></li>
                 </ul>
             </div>
-            <div class="m1 t4 d4 box">
+            <div class="m1 s2  t4 d4 box">
                 <ul>
                 	<li><a href="#">Accreditation</a></li>
                     <li><a href="#">Download Prospectus</a></li>

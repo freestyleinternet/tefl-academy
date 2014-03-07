@@ -20,11 +20,13 @@
                 <h2>Our very own TEFL jobs board!</h2>
                 <p>Our students can now view...</p>
                 <article>
-                    <img src="assets/images/home-news-thumb.jpg">
-                    <div class="txt">
-                    	<h1>TEFL job opportunities in Asia</h1>
-                    	<p>New job roles across Asia...</p>
-                    </div>
+                    <a href="news.php">
+                        <img src="assets/images/home-news-thumb.jpg">
+                        <div class="txt">
+                            <h1>TEFL job opportunities in Asia</h1>
+                            <p>New job roles across Asia...</p>
+                        </div>
+                    </a>
                 </article>
             </div>
         </div>

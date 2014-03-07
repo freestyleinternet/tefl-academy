@@ -11,9 +11,14 @@ body {
 	}
 	@include bp(desktop) {
 		font-size:100%;
-		background:url(#{$assetPath}/home-background-strip.jpg) no-repeat center 169px;
 	}
 }
+@include bp(desktop) {
+	body.home {
+		background:url(#{$assetPath}/home-background-strip.jpg) no-repeat center 169px;	
+	}
+}
+
 a,
 a:visited {
 	text-decoration:none;
@@ -57,9 +62,12 @@ p {
 }
 
 .wrapper {
-	width:98%;
+	width:92%;
 	margin:0 auto;
 	@include microclearfix;
+	@include bp(tablet) {
+		width:96%;
+	}
 	@include bp(desktop) {
 		width:960px;
 	}
@@ -88,6 +96,13 @@ section.banner {
 	padding:em(4) em(16);
 	background:$brand-light;
 	font-size:em(16);
+	&.fullwidth {
+		width:100%;
+		display:block;
+		padding-left:0;
+		padding-right:0;
+		text-align:center;
+	}
 }
 .people {
 	padding-left:em(45);
@@ -116,7 +131,8 @@ section.banner {
 	min-height:22px;
 	line-height:22px;
 	text-align:center;
-	margin:0 auto em(20) auto;
+	display:inline-block;
+	margin:0 0 em(20) 5%;
 }
 .orange {
 	background:$brand-orange;
@@ -128,6 +144,15 @@ section.banner {
 	position:absolute;
 	bottom:0;
 	right:0;
+}
+.marginbottom {
+	display:inline-block;
+	text-align:center;
+	margin-bottom:em(26);
+	@include bp(desktop) {
+		width:auto;
+		text-align:left;
+	}
 }
 
 /*  Social Media */
@@ -218,9 +243,10 @@ header .contact {
 		span {
 			color:$brand-orange;
 			font-weight:bold;
-			font-size:18px;
+			font-size:30px;
 			margin-left:em(5);
 			@include bp(tablet) {
+				font-size:18px;
 				margin-left:0;
 			}
 			@include bp(desktop) {
@@ -287,6 +313,7 @@ header .contact {
   -webkit-transform-origin: 50% 50%;
 }
 .verticalmoneyoff {
+	display:none;
 	position:absolute;
 	top:em(164);
 	right:-55px;
@@ -303,6 +330,9 @@ header .contact {
   -moz-transform-origin: 50% 50%;
   -webkit-transform: rotate(-270deg);
   -webkit-transform-origin: 50% 50%;
+  @include bp(desktop) {
+	  display:block;
+  }
 }
 h2.title {
 	font-size:em(22);
@@ -332,7 +362,7 @@ h2.title {
 
 .home-feature {
 	position:relative;	
-	width:80%;
+	width:90%;
 	margin:0 auto;
 	
 	@include bp(tablet) {
@@ -452,6 +482,34 @@ h2.title {
 		font-size:em(14);
 		line-height:18px;
 		margin-bottom:em(16);
+	}
+}
+
+.newsletter-box-side {
+	width:100%;
+	display:inline-block;
+	box-sizing:border-box;
+	background:$brand-dark;
+	padding:em(20) em(20);
+	margin-bottom:em(26);
+	h1 {
+		color:#fff;
+		font-size:em(30);
+		margin-bottom:em(10);
+		background: url(#{$assetPath}/paper-plane.svg) no-repeat 98% top; 
+	}
+	input[type="text"] {
+		margin-bottom:em(20);
+	}
+	input[type="email"] {
+		float:left;
+		width:75%;
+	}
+	input[type="submit"] {
+		float:right;
+		width:20%;
+		color:#fff;
+		background:$brand-orange;
 	}
 }
 
@@ -598,6 +656,36 @@ footer {
 		}
 	}
 }
+
+/*  Inner pages */
+section {
+	margin-top:em(26);
+}
+aside {
+	margin-top:em(26);
+}
+
+/*  Job page outside of grid */
+section.typetwo {
+	float:left;
+	width:100%;
+	@include bp(tablet) {
+		width:64.58333333333333%; /*  620 / 960*/
+	}
+}
+aside.typetwo {
+	float:left;
+	width:100%;
+	@include bp(tablet) {
+		float:right;
+		width:32.8125%; /*  315 / 960*/
+	}
+}
+
+
+
+
+
 
 
 

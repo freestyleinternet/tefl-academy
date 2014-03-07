@@ -8,9 +8,31 @@
             	<h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
             	<p>posted <span>18 Dec 2013</span></p>
             </div>
+             <div class="single-slider">
+                <div class="cycle-slideshow" 
+                    data-cycle-fx=scrollHorz
+                     data-cycle-timeout=0
+                    data-cycle-swipe=true
+                    >
+                    <!-- prev/next links -->
+                    <div class="cycle-prev orange"></div>
+                    <div class="cycle-next orange"></div>
+                    <img src="assets/images/post-slide.jpg">
+                    <img src="assets/images/post-slide.jpg">
+                    <img src="assets/images/post-slide.jpg">
+                    <img src="assets/images/post-slide.jpg">
+                </div>       
+            </div>
+            <div class="bodycopy">
+            	<h1>Word on the grapevine is that Hull is becoming the City of Culture!</h1>
+            	<p>With the variety of venues and events, from the Freedom and YUM festivals to The Hull Fair, through to the many theatres and arts spaces, this may well be true! Of course let's not forget all the other wonderful things Hull has to offer: the museum quarter, the rich history, the beautiful architecture and last but not least...The TEFL Academy has just arrived in town! Courses start from the 25th & 26th of January and places are filling up fast.</p>
+ 				<p>Click here for more course dates and further details:<br> <a href="http://www.theteflacademy.co.uk/teflcourseshull">http://www.theteflacademy.co.uk/teflcourseshull</a></p>
+            	<a class="button-light orange marginbottom" href="news.php">BACK TO ALL NEWS</a>
+            </div>
             
-            <h1>Word on the grapevine is that Hull is becoming the City of Culture!</h1>
- 
+            <a class="button-light mobbutton displaymobile" href="#">Call back request</a>
+        <a class="button-light mobbutton orange displaymobile" href="#">50% Off</a>
+
         </section>
         
         <aside class="m1 t4 d4">

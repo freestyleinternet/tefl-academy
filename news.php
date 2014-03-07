@@ -11,7 +11,7 @@
             
             <div class="container">
                 <article>
-                    <a href="#">
+                    <a href="news-single.php">
                         <img src="assets/images/blog-thumbnail.jpg" alt="TEFL Academy"/>
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
@@ -20,7 +20,7 @@
                     </a>
                 </article>
                 <article>
-                    <a href="#">
+                    <a href="news-single.php">
                         <img src="assets/images/blog-thumbnail.jpg" alt="TEFL Academy"/>
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
@@ -29,7 +29,7 @@
                     </a>
                 </article>
                 <article>
-                    <a href="#">
+                    <a href="news-single.php">
                         <img src="assets/images/blog-thumbnail.jpg" alt="TEFL Academy"/>
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
@@ -38,7 +38,7 @@
                     </a>
                 </article>
                 <article>
-                    <a href="#">
+                    <a href="news-single.php">
                         <img src="assets/images/blog-thumbnail.jpg" alt="TEFL Academy"/>
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
@@ -47,7 +47,7 @@
                     </a>
                 </article>
                 <article>
-                    <a href="#">
+                    <a href="news-single.php">
                         <img src="assets/images/blog-thumbnail.jpg" alt="TEFL Academy"/>
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>

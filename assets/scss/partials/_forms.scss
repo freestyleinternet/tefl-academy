@@ -1,14 +1,17 @@
 /* FORMS */
 input {
 	width:100%;
-	min-height:50px;
+	min-height:30px;
 	padding-left:16px;
 	padding-right:16px;
 	color:#000;
-	font-size:em(24);
+	font-size:em(16);
 	border:none;
 	background:#fff;
 	box-sizing:border-box;
+	@include placeholder {
+		color:#000;
+	}
 }
 
 .search-form {
@@ -47,7 +50,9 @@ input {
 }
 
 .newsletter-box form {
+	font-size:em(24);
 	padding:0 16px;
+	min-height:50px;
 	input {
 		margin-bottom:em(15);
 	}
@@ -62,3 +67,71 @@ input {
 		background:$brand-orange;
 	}
 }
+
+
+/*  Select box */
+fieldset.half {
+	width:100%;
+	display:inline-block;
+	input,
+	.styled {
+		float:left;
+		width:100%;
+		display:inline-block;
+		margin-bottom:em(10);
+		@include bp(tablet) {
+			width:48%;
+			margin-right:2%;
+		}
+	}
+	@include bp(tablet) {
+		.styled {
+			float:right;
+			margin-right:0;
+		}
+	}
+}
+
+fieldset.third {
+	width:100%;
+	display:inline-block;
+	input,
+	.styled {
+		float:left;
+		width:100%;
+		display:inline-block;
+		margin-bottom:em(10);
+		@include bp(tablet) {
+			width:30.66666666666667%;
+			margin-right:4%;
+		}
+	}
+	input[type=submit] {
+		float:right;
+		width:100%;
+		padding:0;
+		margin-right:0;
+		color:#fff;
+		background:$brand-orange;
+		@include bp(tablet) {
+			float:right;
+			width:30.66666666666667%;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

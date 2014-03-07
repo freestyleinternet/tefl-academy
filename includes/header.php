@@ -1,3 +1,27 @@
+<?php
+	
+	$siteurl = "http://localhost/tefl-academy/";
+	//$siteurl = "http://theteflacademy.freestyleinternet.co.uk/";
+	$file = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+	
+	$pageactive = '';
+	
+	switch ($file)
+	{
+	case $siteurl."news.php":
+		 $pageactive          = "class='news'";
+		 break;
+	case $siteurl."news-single.php":
+		 $pageactive          = "class='news-single'";
+		 break;
+	case $siteurl."jobs-board.php":
+		 $pageactive          = "class='jobs'";
+		 break;
+	default:
+		 $pageactive          = "class='page'";
+		 break;
+}
+?>
 <!DOCTYPE html>
     <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
     <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -34,7 +58,7 @@
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
-<body>
+<body <?php echo $pageactive; ?>>
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
@@ -46,7 +70,7 @@
             	<div class="contact displaymobile">
                     <p><img src="assets/images/phone-icon-orange.svg" alt="TEFL Academy Phone Number"/><span>0800 689 9190</span></p>
                 </div>
-       	    	<img src="assets/images/tefl-academy-logo.svg" alt="TEFL Academy"/>
+       	    	<a href="index.php"><img src="assets/images/tefl-academy-logo.svg" alt="TEFL Academy"/></a>
                 <div class="searchmobile displaymobile">
                 	<form class="search-form" action="#" method="post">
                         <input class="search" type="text" placeholder="Search">
@@ -71,3 +95,50 @@
             </div>
         </div>
     </header>
+    
+    <div class="wrapper"> 
+        <ul class="mobilemenu displaymobile">
+        	<li><a href="index.php" class="toggle"><img src="assets/images/trigger.svg" alt="TEFL Academy"/></a></li>
+            <li><a href="/">About Us</a></li>
+            <li><a href="/">Get in touch</a></li>
+            <li><a class="last" href="/">Enrol</a></li>
+        </ul>
+        <div class="mobile-container displaymobile">
+            <div class="mobile">
+            	<ul class="holder">
+                    <li><a href="/">Design</a></li>
+                    <li><a href="/">HTML</a></li>
+                    <li><a href="/">CSS</a></li>
+                    <li><a href="/">JavaScript</a></li>
+            	</ul>
+            </div>
+        </div>
+        
+        <nav class="m1 t1-t4 d1-d4 displaydesktop">
+            <ul>
+                <li><a class="home" href="#"><img src="assets/images/home-icon.svg" alt="TEFL Academy"/></a></li>
+                <li><a href="#">About Us</a></li>
+                <li>
+                    <a href="#" aria-haspopup="true">Course Locations</a>
+                    <ul>
+                        <li><a href="/">Design</a></li>
+                        <li><a href="/">HTML</a></li>
+                        <li><a href="/">CSS</a></li>
+                        <li><a href="/">JavaScript</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/" aria-haspopup="true">Further Info</a>
+                    <ul>
+                        <li><a href="/">Web Design</a></li>
+                        <li><a href="/">Typography</a></li>
+                        <li><a href="/">Front-End</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Teaching Abroad</a></li>
+                <li><a href="/">Jobs</a></li>
+                <li><a href="/">Get in touch</a></li>
+                <li><a class="last" href="/">Enrol</a></li>
+            </ul>
+        </nav>
+	</div>

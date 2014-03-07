@@ -100,7 +100,7 @@ nav li ul:not( :hover ) li.active a {
 			font-size:em(16); 
 			line-height:em(50);
 			text-align: center;
-			padding:0 em(13);
+			padding:0 em(8);
 			box-sizing: border-box;
 			background: $brand-dark;
 			&.toggle {
@@ -122,6 +122,8 @@ nav li ul:not( :hover ) li.active a {
 	width:100%;
 	display:inline-block;
 	.holder {
+		position:relative;
+		top:em(-5);
 		width:100%;
 		margin:0;
 		background:$brand-dark;

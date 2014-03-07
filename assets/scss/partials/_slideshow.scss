@@ -18,12 +18,18 @@
 	top:50%;
 	left:0;
 	background:$brand-light url(#{$assetPath}/arrow-left.svg) no-repeat center center;
+	&.orange {
+		background:$brand-orange url(#{$assetPath}/arrow-left.svg) no-repeat center center;
+	}
 }
 .cycle-next {
 	position:absolute;
 	top:50%;
 	right:0;
 	background:$brand-light url(#{$assetPath}/arrow-right.svg) no-repeat center center;
+	&.orange {
+		background:$brand-orange url(#{$assetPath}/arrow-right.svg) no-repeat center center;
+	}
 }
 
 .cycle-pager {
@@ -56,7 +62,13 @@
 	width:100%;
 	display:inline-block;
 	img {
-		width:50%;
+		width:100%;
+		@include bp(tablet) {
+			width:50%;
+		}
+		@include bp(desktop) {
+			width:auto;
+		}
 	}
 	.text {
 		position:relative;
@@ -76,13 +88,14 @@
 				margin-left:0;
 			}
 			&:last-of-type {
-				margin-bottom:em(33);
+				margin-bottom:0;
 			}
 		}
 		img {
 			float:right;
 			display:none;
 			@include bp(desktop) {
+			
 				display:inline-block;
 			}
 		}
@@ -120,3 +133,7 @@
 		right:-78px;
 	}
 }
+
+
+
+

@@ -2,9 +2,56 @@
     
     <div class="wrapper">
     	
-      	<section class="m1 t1-t3 d1-d3">
+      	<section class="typetwo">
         	
-            <div class="news-intro jobs">
+            <div class="displaymobile">
+                <dl class="accordion">
+                    <dt><a href="#">Jobs in Africa</a></dt>
+                        <dd>
+                            <ul>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                            </ul>
+                        </dd>
+                    <dt><a href="#">Jobs in the Middle East</a></dt>
+                        <dd>
+                            <ul>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                            </ul>
+                        </dd>
+                    <dt><a href="#">Jobs in Europe</a></dt>
+                        <dd>
+                            <ul>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                                <li>Country name</li>
+                            </ul>
+                        </dd>
+                </dl>
+				<a class="button-light mobbutton displaymobile" href="#">Sign up for daily TEFL job alerts</a>
+				<a class="button-light mobbutton orange displaymobile" href="#">Get 50% OFF! Book Now</a>
+                <a class="button-light mobbutton people displaymobile" href="#">Student Advice Centre</a>
+            </div>
+            
+            <div class="news-intro jobs displaydesktop">
             	<h1><img src="assets/images/mag-glass-green.svg" alt="mag glass"/>TEFL JOBS BOARD - Search 364 jobs</h1>
             	<p>On successful completion of our 120 hour TEFL course you can start applying for jobs on our exclusive jobs board. Remember to check back regularly, new jobs are posted daily.</p>
             	<form>
@@ -41,13 +88,13 @@
                 </form>
             </div>
             
-            <div class="container-jobs">
+            <div class="container-jobs displaydesktop">
                	
                 <div class="head"> 
                 	<h1>JOB SUMMARY</h1>
                     <div class="styled">
                         <select>
-                            <option>Full Time</option>
+                            <option>Sort By</option>
                             <option>Option one</option>
                             <option>Option two</option>
                             <option>Option three</option>
@@ -113,20 +160,35 @@
             
         </section>
         
-        <aside class="m1 t4 d4">
+        <aside class="typetwo displaydesktop">
         	
-            <div class="newsletter-box">
-                <img src="assets/images/newsletter-block-header.jpg">
-                <h1>SIGN UP TO OUR NEWSLETTER</h1>
-                <p>Be the first to get exclusive TEFL offers and information</p>
+            <div class="newsletter-box-side">
+                <h1>Sign up for daily<br>TEFL job alerts</h1>
                 <form action="#" method="post">
                     <input type="text" placeholder="Name" required>
                     <input  type="email" placeholder="Email" required>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Go">
                 </form>
             </div>
             
-            <a class="button-light mobbutton orange" href="#">Most Recent Jobs</a>
+            <a class="button-light fullwidth orange" href="#">Most Recent Jobs</a>
+            
+            <figure>
+				<img src="assets/images/thailand-side.jpg" alt="TEFL Teaching Job - Thailand" >
+				<figcaption class="green">TEFL Teaching Job - Thailand</figcaption>
+            </figure>
+            <figure>
+				<img src="assets/images/thailand2-side.jpg" alt="TEFL Teaching Job - Thailand" >
+				<figcaption>TEFL Teaching Job - Thailand</figcaption>
+            </figure>
+            <figure>
+				<img src="assets/images/brazil-side.jpg" alt="TEFL Teaching Job - Thailand" >
+				<figcaption class="green">TEFL Teaching Job - Brazil</figcaption>
+            </figure>
+            <figure class="last">
+				<img src="assets/images/morocco-side.jpg" alt="TEFL Teaching Job - Thailand" >
+				<figcaption>TEFL Teaching Job - Morocco</figcaption>
+            </figure>
             
         </aside>
         
