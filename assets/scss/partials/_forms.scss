@@ -1,5 +1,16 @@
+.leftbx p.key {
+	float:right;
+	font-size:em(16);
+	display:block;
+	color:$brand-orange;
+	background:url(#{$assetPath}/required-field.svg) no-repeat top right;
+	margin:em(9) 0 0 0;
+	@include bp(tablet) {
+		margin-right:em(32);
+	}
+}
 /* FORMS */
-input {
+input, textarea {
 	width:100%;
 	min-height:30px;
 	padding-left:16px;
@@ -8,23 +19,67 @@ input {
 	font-size:em(16);
 	border:none;
 	background:#fff;
+	font-weight:100;
 	box-sizing:border-box;
+	outline:none;
+	font-weight:100;
 	@include placeholder {
 		color:#000;
+		opacity:1;
 	}
+}
+textarea {
+	float:left;
+	min-height:em(90);
+	padding-top:em(10);
+	padding-bottom:em(10);
+	border:1px solid $brand-light;
+}
+textarea:focus,
+input:focus {
+	@include placeholder {
+		opacity:0.5;
+	}
+}
+input[type=submit] {
+	border:none;
+}
+input[type=submit].buttontype {
+	float:right;
+	width:auto;
+	min-height:30px;
+	display:block;
+	padding-left:em(16);
+	padding-right:46px;
+	color:#fff;
+	font-size:em(15);
+	font-weight:400;
+	border:none;
+	background:$brand-dark url(#{$assetPath}/submit-arrow.svg) no-repeat top right;
+}
+
+form div {
+	width:100%;
+	display:inline-block;
+	margin-bottom:10px;
 }
 
 .search-form {
 	position:relative;
-	input {
+	input[type=text] {
 		float:right;
-		min-height:30px;
+		min-height:30px; 
 		padding:em(5) 8% em(5) 2%;
-		color:$brand-dark;
+		color:$brand-light;
 		font-size:em(16);
+		line-height:20px;
 		background:rgba(172, 192, 38, 0.2);
 		@include bp(tablet) {
 			width:32.11991434689507%; /*  150 / 467 */
+			min-height:40px; 
+		}
+		@include placeholder {
+			color:$brand-dark;
 		}
 	}
 	input[type=submit] {
@@ -35,7 +90,8 @@ input {
 		height:30px;
 		display:block;
 		padding:0;
-		background:$brand-dark url(#{$assetPath}/mag-glass.svg) no-repeat center center;
+		
+		background:$brand-light url(#{$assetPath}/mag-glass.svg) no-repeat center center;
 	}
 }
 .searchmobile  {
@@ -48,23 +104,67 @@ input {
 		margin-top:em(24);
 	}
 }
+header .search-form {
+	input[type=text] {
+		min-height:30px;
+	}
+}
+.slider-form {
+	float:left;
+	position:relative;
+	width:100%;
+	display:block;
+	label {
+		display:block;
+		color:$brand-dark;
+		margin-bottom:em(3);
+	}
+	input {
+		float:left;
+		width:100%;
+		margin-bottom:em(16);
+	}
+	textarea {
+		border:none;
+	}
+	input[type=submit] {
+		float:right;
+		width:auto;
+		color:#fff;
+		background:$brand-orange;
+		margin-top:em(16);
+		margin-bottom:0;
+	}
+}
 
 .newsletter-box form {
-	font-size:em(24);
+	font-size:em(18);
 	padding:0 16px;
 	min-height:50px;
+	@include bp(tablet) {
+		font-size:em(24);
+	}
 	input {
 		margin-bottom:em(15);
+		min-height:50px;
 	}
 	input[type=email] {
 		width:66%;
+		min-height:50px;
 	}
 	input[type=submit] {
 		float:right;
 		width:30%;
 		min-height:50px;
-		font-size:em(24);
+		color:#fff;
+		font-size:em(18);
+		font-weight:100;
+		padding-left:2%;
+		padding-right:2%;
 		background:$brand-orange;
+		@include bp(desktop) {
+			font-size:em(20);
+		}
 	}
 }
 
@@ -81,12 +181,12 @@ fieldset.half {
 		margin-bottom:em(10);
 		@include bp(tablet) {
 			width:48%;
-			margin-right:2%;
+			margin-right:2.6%;
 		}
 	}
 	@include bp(tablet) {
 		.styled {
-			float:right;
+			
 			margin-right:0;
 		}
 	}
@@ -120,10 +220,237 @@ fieldset.third {
 	}
 }
 
+/*  Booking forms */
+.bookingstyle {
+	width:90%;
+	margin-left:5%;
+	display:inline-block;
+	margin-top:em(8);
+	@include bp(tablet) {
+		width:100%;
+	}
+	label, h2 {
+		float:left;
+		width:100%;
+		min-height:40px;
+		line-height:40px;
+		font-size:em(20);
+		color:$brand-dark;
+		font-weight:100;
+		@include bp(tablet) {
+			width:32.8125%; /*  210 / 640 */
+			&.wider {
+				width:53.4375%; /*  342 / 640 */
+
+			}
+		}
+		&.code {
+			width:80%;
+			min-height:30px;
+			color:#eaefc9;
+			display:block;
+			text-align:center;
+			background:$brand-dark;
+			margin-bottom:em(6);
+			font-weight:bold;
+			font-size:em(22);
+			line-height:30px;
+			margin-top:em(2);
+		}
+		&.fullwidth {
+			width:100%;
+		}
+	}
+	label {
+		font-size:em(16);
+		@include bp(tablet) {
+			font-size:em(20);
+		}
+	}
+	input {
+		float:left;
+		width:100%;
+		min-height:40px;
+		margin-bottom:0;
+		border:1px solid $brand-light;
+		background:#fff url(#{$assetPath}/required-field.svg) no-repeat top right;
+		@include bp(tablet) {
+			width:62.1875%; /*  398 / 640 */
+			margin-bottom:em(10);
+		}
+	}
+}
+
+div.radioset {
+	width:100%;
+	min-height:40px;
+	display:inline-block;
+	label {
+		float:left;
+		&.radio-label {
+			width:auto;
+			height:auto;
+			color:$body-copy;
+			font-size:em(16);
+			margin-right:em(20);
+			&.last {
+				margin-right:0;
+			}
+		}
+	}
+	label input {
+		width:auto;
+		height:auto;
+		border:1px solid #f00;
+	}
+}
+
+div.radioset.alignright {
+	float:right;
+	width:auto;
+	label {
+		margin-right:0;
+		a {
+			color:$brand-orange;
+		}
+	}
+	div.radio, div.radio span, div.radio input {
+		position:relative;
+		top:0px;
+	}
+}
+
+.bookingstyle  {
+	fieldset {
+		width:100%;
+	}
+	.styled{	
+		float:left;
+		width:98%;
+		margin-right:0;
+		margin-bottom:em(10);
+		@include bp(tablet) {
+			width:63.2%; /*  395 / 640 */
+		}
+		@include bp(desktop) {
+			width:61.71875%; /*  395 / 640 */
+		}
+		&.smaller {
+			float:left;
+			width:40%;
+			@include bp(tablet) {
+				width:41.5%;
+			}
+			@include bp(desktop) {
+				width:40%;
+			}
+		}
+		p {
+			font-size:em(14);
+			padding-left:0;
+			padding-right:0;
+			margin-top:6px;
+			margin-bottom:6px;
+		}
+	  }
+	  div.selector {
+		  color:#757575;
+		  line-height: 40px;
+		  height: 40px;
+		  position: relative;
+		  overflow: hidden;
+		  box-sizing:border-box;
+		  text-indent:em(16);
+		  border:1px solid $brand-light;
+		  background:#fff url(#{$assetPath}/booking-select.svg) no-repeat top right;
+		  cursor:pointer; 
+	  }
+	  div.selector span {
+		  text-overflow: ellipsis;
+		  display: block;
+		  overflow: hidden;
+		  white-space: nowrap;
+		  background-position: right 0;
+		  height: 30px;
+		  line-height: 30px;
+		  padding-right: 25px;
+		  cursor: pointer;
+		  width: 100%;
+		  display: block; 	
+	  }
+	  div.selector select {
+		  opacity: 0;
+		  filter: alpha(opacity=0);
+		  -moz-opacity: 0;
+		  border: none;
+		  background: none;
+		  position: absolute;
+		  height: 30px;
+		  top: 2px;
+		  left: 0px;
+		  width: 100%; 
+	  
+	  }
+}
+
+.bookingstyle fieldset.half {
+	label {
+		float:left;
+		@include bp(tablet) {
+			width:46%;
+			margin-right:2%;
+		}
+	}
+	input {
+		float:left;
+		@include bp(tablet) {
+			width:46%;
+			margin-right:2%;
+			&:last-of-type {
+				margin-right:0;
+			}
+		}
+	}
+	input[type=email] {
+		@include bp(tablet) {
+			width:47%;
+			margin-right:0;
+		}
+	}
+}
+.bookingstyle fieldset.third {
+	label {
+		float:left;
+		@include bp(tablet) {
+			width:30%;
+			margin-right:2%;
+		}
+	}
+	.styled {
+		@include bp(tablet) {
+			width:28.5%; /*  395 / 640 */
+			margin-right:2% !important;
+		}
+	}
+	input {
+		float:left;
+		@include bp(tablet) {
+			width:30.5%;
+			margin-right:2%;
+			margin-left:2%;
+			&:last-of-type {
+				width:30%;
+				margin-left:0;
+			}
+		}
+	}
+}
 
 
-
-
+/*  Modal forms */
+.modalform {
+	
+}
 
 
 

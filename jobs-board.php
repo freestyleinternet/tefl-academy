@@ -3,52 +3,62 @@
     <div class="wrapper">
     	
       	<section class="typetwo">
-        	
+        	<h1 class="green-header central large displaymobile">Jobs Board</h1>
+            <div class="ac-container displaymobile">
+                <div>
+                    <input id="ac-1" name="accordion-1" type="checkbox" />
+                    <label for="ac-1">Jobs in Africa</label>
+                    <article class="ac-large">
+                        <ul class="colourlist">
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                        </ul>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-2" name="accordion-1" type="checkbox" />
+                    <label for="ac-2">Jobs in the Middle East</label>
+                    <article class="ac-large">
+                        <ul class="colourlist">
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                        </ul>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-3" name="accordion-1" type="checkbox" />
+                    <label for="ac-3">Jobs in Europe</label>
+                    <article class="ac-large">
+                        <ul class="colourlist">
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                            <li>Country name</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+            
             <div class="displaymobile">
-                <dl class="accordion">
-                    <dt><a href="#">Jobs in Africa</a></dt>
-                        <dd>
-                            <ul>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                            </ul>
-                        </dd>
-                    <dt><a href="#">Jobs in the Middle East</a></dt>
-                        <dd>
-                            <ul>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                            </ul>
-                        </dd>
-                    <dt><a href="#">Jobs in Europe</a></dt>
-                        <dd>
-                            <ul>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                                <li>Country name</li>
-                            </ul>
-                        </dd>
-                </dl>
-				<a class="button-light mobbutton displaymobile" href="#">Sign up for daily TEFL job alerts</a>
-				<a class="button-light mobbutton orange displaymobile" href="#">Get 50% OFF! Book Now</a>
-                <a class="button-light mobbutton people displaymobile" href="#">Student Advice Centre</a>
+				<a class="button-light mobbutton green displaymobile" href="#">Sign up for daily TEFL job alerts <span></span></a>
+				<a class="button-light mobbutton orange displaymobile" href="#">Get 50% OFF! Book Now <span></span></a>
+                <a class="button-light mobbutton green people displaymobile" href="#">Student Advice Centre <span></span></a>
             </div>
             
             <div class="news-intro jobs displaydesktop">
@@ -103,37 +113,49 @@
                 </div>
                 
                 <article>
-                	<a href="#">
+                	<a href="jobs-single.php">
                     	<header>
                             <h1>Brilliant teaching Opportunities in Thailand</h1>
                             <p class="location">Thailand</p>
                             <p class="datetime">15/12/13</p>
                         </header>
-                        <img src="assets/images/flag.svg" alt="TEFL Academy"/>
+                        <img src="assets/images/flag.jpg" alt="TEFL Academy"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
                         <div class="button-light oarrow absolutebr">More Info<span></span></div>
                     </a>
                 </article>
                 <article>
-                	<a href="#">
+                	<a href="jobs-single.php">
                     	<header>
                             <h1>Brilliant teaching Opportunities in Thailand</h1>
                             <p class="location">Thailand</p>
                             <p class="datetime">15/12/13</p>
                         </header>
-                        <img src="assets/images/flag.svg" alt="TEFL Academy"/>
+                        <img src="assets/images/flag.jpg" alt="TEFL Academy"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
                         <div class="button-light oarrow absolutebr">More Info<span></span></div>
                     </a>
                 </article>
                 <article>
-                	<a href="#">
+                	<a href="jobs-single.php">
                     	<header>
                             <h1>Brilliant teaching Opportunities in Thailand</h1>
                             <p class="location">Thailand</p>
                             <p class="datetime">15/12/13</p>
                         </header>
-                        <img src="assets/images/flag.svg" alt="TEFL Academy"/>
+                        <img src="assets/images/flag.jpg" alt="TEFL Academy"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                        <div class="button-light oarrow absolutebr">More Info<span></span></div>
+                    </a>
+                </article>
+                <article>
+                	<a href="jobs-single.php">
+                    	<header>
+                            <h1>Brilliant teaching Opportunities in Thailand</h1>
+                            <p class="location">Thailand</p>
+                            <p class="datetime">15/12/13</p>
+                        </header>
+                        <img src="assets/images/flag.jpg" alt="TEFL Academy"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
                         <div class="button-light oarrow absolutebr">More Info<span></span></div>
                     </a>
@@ -171,7 +193,7 @@
                 </form>
             </div>
             
-            <a class="button-light fullwidth orange" href="#">Most Recent Jobs</a>
+            <a class="button-light fullwidth orange largejobs" href="#">Most Recent Jobs</a>
             
             <figure>
 				<img src="assets/images/thailand-side.jpg" alt="TEFL Teaching Job - Thailand" >

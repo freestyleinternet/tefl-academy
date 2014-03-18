@@ -2,7 +2,7 @@ nav {
 	position:relative;
 	width:100%;
 	margin:0;
-	background: $brand-dark;
+	background:$brand-dark;
 	z-index:300;
 }
 nav > a {
@@ -10,6 +10,9 @@ nav > a {
 }
 nav li {
 	position: relative;
+}
+nav ul {
+	position:relative;
 }
 nav ul li a {
 	color: #fff;
@@ -27,36 +30,61 @@ nav > ul {
 nav > ul > li {
 	width:auto;
 	float:left;
+	&.last {
+		position:absolute;
+		right:0;
+		a {
+			background:$brand-orange;
+		}
+	}
 }
 nav > ul > li > a {	
 	white-space: nowrap;
 	font-size:em(16); 
 	line-height:em(40);
 	text-align: center;
-	padding:0 em(20);
+	padding:0 em(24);
 	box-sizing: border-box;
 	background: $brand-dark;
 	@include bp(desktop) {
-		padding:0 em(20);
+		padding:0 em(23.5);
+	}
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+		padding:0 em(20.5);
+	}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		padding:0 em(22.8);
 	}
 	&.home {
 		padding:0 em(8);
 		background:#000;
 		@include bp(desktop) {
-			padding:0 em(40);
+			padding:0 em(40) 0 em(41);
 		}
 	}
+	
+}
+/*  IE 10 and 11 */
+.ie9 nav > ul > li > a {
+	padding:0 em(25) 0 em(25);
 	&.last {
-		position:relative;
-		right:-1px;
-		padding:0 em(38) 0 em(38);
+		right:-8px;
 	}
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	nav > ul > li > a {
+		padding:0 em(20) 0 em(21);
+		&.last {
+			right:-6px;
+		}
+	}
+}
+
 nav > ul > li:not( :last-child ) > a {
 	
 }
 nav > ul > li:hover > a,
-nav > ul:not( :hover ) > li.active > a {
+nav > ul:not( :hover ) > li > a.active {
 	background:$brand-orange;
 }
 
@@ -67,7 +95,8 @@ nav li ul {
 	position: absolute;
 	top: 100%;
 }
-nav li:hover ul {
+nav li:hover ul,
+nav li:target ul {
 	display: block;
 	left: 0;
 	right: 0;
@@ -87,6 +116,7 @@ nav li ul:not( :hover ) li.active a {
 /* Mobile Navigation */
 .mobilemenu {
 	position:relative;
+	top:5px;
 	width:100%;
 	max-height:50px;
 	display:inline-block;
@@ -105,7 +135,7 @@ nav li ul:not( :hover ) li.active a {
 			background: $brand-dark;
 			&.toggle {
 				position:relative;
-				top:-2px;
+				top:-3px;
 				padding:0;
 				background:none;
 			}
@@ -120,7 +150,7 @@ nav li ul:not( :hover ) li.active a {
 .mobile-container {
 	position:relative;
 	width:100%;
-	display:inline-block;
+	display:block;
 	.holder {
 		position:relative;
 		top:em(-5);

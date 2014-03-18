@@ -1,5 +1,5 @@
 <div class="wrapper">
-    	<div class="m1 t1-t2 d1-d2 ">
+    	<div class="m1 t1-t2 d1-d2">
         	<div class="newsletter-box">
                 <img src="assets/images/newsletter-block-header.jpg">
                 <h1>SIGN UP TO OUR NEWSLETTER</h1>
@@ -10,8 +10,8 @@
                     <input type="submit" value="Submit">
                 </form>
             </div>
-            <a class="button-light mobbutton black displaymobile" href="#">Latest News</a>
-            <a class="button-light mobbutton people displaymobile" href="#">Student Advice Centre</a>
+            <a class="button-light mobbutton black displaymobile" href="#">Latest News <span></span></a>
+            <a class="button-light mobbutton people green displaymobile" href="#">Student Advice Centre <span></span></a>
         </div>
         <div class="m1 t3 d3">
         	<div class="newsbox">
@@ -33,15 +33,19 @@
         <div class="m1 t4 d4">      		
             <div class="tabs displaydesktop">
             	<div class="tab">
-                    <input type="radio" id="tab-1" name="tab-group-1" checked>
-                    <label for="tab-1">Twitter</label>
+                    <input type="radio" id="tab-t" name="tab-group-1" checked>
+                    <label for="tab-t">Twitter</label>
             		<div class="tab-content">
-            			<p>One</p>
-            		</div> 
+                    	<h2>@TEFLAcademyUK</h2>
+            			<!--<div id="twitter_box">
+                        	<a class="twitter-timeline"   data-link-color="#fff"  data-border-color="#fff" data-chrome="noheader nofooter transparent" data-tweet-limit="2" href="https://twitter.com/tweetingFrog"  data-widget-id="344808953164738560">Tweets by @tweetingFrog</a>
+    						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            			</div>-->
+                    </div> 
             	</div>
             	<div class="tab">
-            		<input type="radio" id="tab-2" name="tab-group-1">
-            		<label for="tab-2">Facebook</label>
+            		<input type="radio" id="tab-f" name="tab-group-1">
+            		<label for="tab-f">Facebook</label>
                     <div class="tab-content">
                         <p>Two</p>
                     </div> 

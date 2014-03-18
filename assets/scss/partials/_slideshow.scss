@@ -58,9 +58,22 @@
 }
 
 /*  Testimonails slider home page */
+.testimonials-slider {
+	position:relative;
+	width:90%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	@include bp(tablet) {
+		width:100%;
+	}
+}
 .slide {
 	width:100%;
 	display:inline-block;
+	@include bp(tablet) {
+		width:100%;
+	}
 	img {
 		width:100%;
 		@include bp(tablet) {
@@ -68,6 +81,12 @@
 		}
 		@include bp(desktop) {
 			width:auto;
+		}
+	}
+	.button-light {
+		float:right;
+		@include bp(tablet) {
+			float:left;
 		}
 	}
 	.text {
@@ -78,7 +97,7 @@
 			width:100%;
 			font-size:em(14);
 			line-height:20px;
-			margin-bottom:em(25);
+			margin-bottom:em(10);
 			@include bp(tablet) {
 				width:78%;
 				margin-left:2%;
@@ -88,23 +107,19 @@
 				margin-left:0;
 			}
 			&:last-of-type {
-				margin-bottom:0;
+				margin-bottom:em(12);
 			}
 		}
 		img {
 			float:right;
 			display:none;
 			@include bp(desktop) {
-			
 				display:inline-block;
 			}
 		}
-		.button-light {
-			float:right;
-		}
+		
 	}
 }
-
 #next,
 #prev {
 	position:absolute;
@@ -114,20 +129,22 @@
 	display:block;
 	cursor:pointer;
 	z-index:2000;
+	opacity:0.8;
 	@include bp(tablet) {
 		top:50%;	
 		margin-top:em(-25);
 	}
 }
 #next {
-	left:0;
+	left:15px;
 	background:$brand-light url(#{$assetPath}/arrow-left.svg) no-repeat center center;
+	
 	@include bp(desktop) {
 		left:-78px;
 	}
 }
 #prev {	
-	right:0;
+	right:15px;
 	background:$brand-light url(#{$assetPath}/arrow-right.svg) no-repeat center center;
 	@include bp(desktop) {
 		right:-78px;

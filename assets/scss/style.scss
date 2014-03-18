@@ -25,12 +25,21 @@ Version: 1.0
 
 // Page and Site Styles
 @import "partials/page";
+@import "partials/forms";
 @import "partials/posts";
 @import "partials/jobs";
 @import "partials/search";
+@import "partials/teacher";
+@import "partials/schools";
+@import "partials/studentadvice";
+@import "partials/stories";
+@import "partials/testimonials";
+@import "partials/booking";
+@import "partials/courselocation";
+@import "partials/maps";
 @import "partials/slideshow";
 @import "partials/nav";
-@import "partials/forms";
+
 
 // Helper Classes, Media Queries, Print, Etc
 @import "partials/helpers";

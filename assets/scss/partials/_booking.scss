@@ -1,0 +1,242 @@
+.breadcrumb { 
+	list-style: none; 
+	overflow: hidden; 
+	font-size:em(16);
+	margin-bottom:em(17);
+	@include bp(tablet) {
+		font-size:em(16);
+	}
+	@include bp(desktop) {
+		font-size:em(20);
+	}
+}
+.breadcrumb li { 
+	float: left; 
+	width:50%;
+	height:30px;
+	line-height:17px;
+	@include bp(tablet) {
+		width:20%;
+		min-height:40px;
+		line-height:30px;
+	}
+}
+
+.breadcrumb li a {
+	width:100%;
+	height:100%;
+	color: $brand-dark;
+	text-decoration: none; 
+	padding: 6px 0 6px 35px;
+	background: #f3f6df; 
+	position: relative; 
+	display: block;
+	float: left;
+	
+	@include bp(tablet) {
+		text-indent:0;
+		text-indent:em(23);
+		text-align:center;
+	}
+	@include bp(desktop) {
+		padding: 5px 0 7px 20px;
+	}
+}
+.breadcrumb.displaymobile li:last-child a { 
+	background:#fff;
+	cursor:text;
+	text-indent:16px;
+	&:hover {
+		color:$brand-dark;
+	}
+}
+.breadcrumb.displaymobile li a.active {
+	padding-left:em(20);
+}
+.breadcrumb li a:after { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid #f3f6df;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	left: 100%;
+	z-index: 2; 
+}	
+.breadcrumb li a:before { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid $brand-dark;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1; 
+}	
+.breadcrumb li:first-child a {
+	padding-left: 10px;
+}
+.breadcrumb li:last-child a {
+	/*pointer-events: none;
+	cursor: default;*/
+}
+
+.breadcrumb li a:hover,
+.breadcrumb li a.active { color:#fff; background:$brand-dark; }
+.breadcrumb li a:hover:after,
+.breadcrumb li a.active:after { border-left-color: $brand-dark !important; }
+
+.booking {
+	h1 {
+		color:$brand-dark;
+		font-size:em(21);
+		padding-left:em(14);
+		line-height:40px;
+		font-weight:100;
+		margin-bottom:em(17);
+		text-transform:uppercase;
+		background:rgba(172, 192, 38, 0.25);
+		@include bp(tablet) {
+			padding-left:em(16);
+		}
+	}
+}
+.leftbx {
+	float:left;
+	width:100%;
+	@include bp(tablet) {
+		width:66.66666666666667%; /*  640 / 960*/
+	}	
+}
+.rightbx {
+	float:left;
+	width:100%;
+	border:1px solid $brand-dark;
+	@include bp(tablet) {
+		float:right;
+		width:31.97916666666667%; /*  307 / 960*/
+	}
+	img {
+		display:block;
+		margin:em(12) auto em(10) auto;
+	}
+}
+
+.leftbx,
+.rightbx {
+	margin-bottom:em(26);
+	h1 {
+		color:#fff;
+		font-size:em(18);
+		font-weight:100;
+		padding:em(4) em(16);
+		background:$brand-dark;
+		@include bp(tablet) {
+			font-size:em(21);
+		}
+	}
+	p, dl {
+		padding:em(5) em(16);
+	}
+	p,
+	.button-light {
+		margin-bottom:em(16);
+	}
+	.button-light {
+		display:block;
+		margin-left:em(16);
+		margin-right:0;
+		text-align:center;
+		@include bp(tablet) {
+			margin-right:em(16);
+		}
+	}
+}
+	
+dl.multiple-table dt {
+	clear: left;
+	float: left;
+	width: 80%;
+	margin: 0;
+	font-weight:400;
+}
+dl.multiple-table.nobold dt {
+	font-weight:100;
+}
+dl.multiple-table dd {
+	width:20%;
+	margin-left: 80%;
+	font-weight:400;
+}
+dl.multiple-table.nobold dd {
+	font-weight:100;
+}
+
+.review {
+	width:100%;
+	display:inline-block;
+	margin-top:em(26);
+	background:rgba(172, 192, 38, 0.15);
+	&.last {
+		margin-bottom:em(26);
+	}
+	h1 {
+		min-height:40px;
+		line-height:30px;
+		color:$brand-dark;
+		background:rgba(172, 192, 38, 0.40);
+		padding-right:em(5);
+		font-size:em(16);
+		@include bp(tablet) {
+			font-size:em(21);
+		}
+		.button-light.orange {
+			padding:em(4) em(16);
+			margin:em(1) 0 0 0;
+			font-size:12px;
+			@include bp(tablet) {
+				font-size:16px;
+				margin:0;
+			}
+		}
+	}
+	h2 {
+		font-size:em(16);
+		padding-left:em(16);
+		
+	}
+}
+dl.multiple-table-review.removetopmargin  {
+	margin-top:0;
+	margin-bottom:em(40);
+	@include bp(tablet) {
+		margin-bottom:em(10);
+	}
+}
+dl.multiple-table-review dt {
+	clear: left;
+	float: left;
+	width: 30%;
+	margin:0 0 em(8) 0;
+	@include bp(tablet) {
+		margin: 0;
+	}
+}
+dl.multiple-table-review dd {
+	width:30%;
+	margin-left: 30%;
+	margin-bottom:em(8);
+	@include bp(tablet) {
+		margin-bottom: 0;
+	}
+}
+

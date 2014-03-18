@@ -1,9 +1,8 @@
 <?php include 'includes/header.php'; ?>
 
-    
     <div class="wrapper">
         <div class="m1 s1-s2 tb1 db1 banner displaydesktop">
-        	<a class="vertical orange" href="#">Chat with us</a>
+
         	<h1>Live your teaching dreams...</h1>
             <div class="info">
             	<h2>Welcome to the TEFL Academy</h2>
@@ -11,6 +10,7 @@
                 <a class="button-light oarrow absolutebr" href="#">More Info<span></span></a>
             </div>
         </div>
+        
         <div class="m1 s1-s2 tb2-tb4 db2-db4 box">
          	<div class="cycle-slideshow" 
                 data-cycle-fx=scrollHorz
@@ -26,10 +26,11 @@
                 <img src="assets/images/slides/slide1.jpg">
             </div>       
         </div>
-        <h2 class="title displaymobile">Welcome to the TEFL Academy</h2>
-        <a class="button-light mobbutton displaymobile" href="#">Call back request</a>
-        <a class="button-light mobbutton orange displaymobile" href="#">50% Off</a>
     </div>
+    
+    <h2 class="title displaymobile">Welcome to the TEFL Academy</h2>
+        <a class="button-light mobbutton displaymobile" href="call-back-request.php">Call back request</a>
+        <a class="button-light mobbutton orange displaymobile" href="#">50% Off <span></span></a>
     
     <div class="wrapper">
     	
@@ -43,6 +44,7 @@
                 <a class="button-light oarrow absolutebr displaydesktop" href="#">More Info<span></span></a>
         	</div>
 		</div>
+        
          <div class="m1 s2 t2 d2">
             <div class="home-feature">
                 <div class="caption half">
@@ -64,15 +66,16 @@
             <div class="home-feature nocontent special">
        			<img src="assets/images/feature5.svg" alt="TEFL Academy"/>
                 <h2>Bring a friend <br>&amp; save £50!</h2>
-                <h3>Book 2 places at the<br>same time &amp; get £50 off</h3>
-            	<a class="button-light oarrow absolutebr" href="#">Book Now<span></span></a>
+                <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
+            	<a class="button-light oarrow absolutebr" href="#">Enrol Now<span></span></a>
             </div>
         </div>
+        
         <div class="m1 s2 t4 d4">
        		<div class="home-feature nocontent">
             	<img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
                 <h2>Download 2013<br>Prospectus</h2>
-            	<a class="button-light oarrow absolutebr" href="#">Download<span></span></a>
+            	<a class="button-light oarrow absolutebr" href="#openModal3" type="button" value="Zoom In Modal Window"  data-type="zoomin">Download<span></span></a>
             </div>
             <div class="home-feature nocontent hbg">
             	<img src="assets/images/feature6.jpg" alt="TEFL Academy"/>

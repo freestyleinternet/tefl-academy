@@ -1,0 +1,98 @@
+.feature-header {
+	position:relative;
+	text-align:left !important;
+	figcaption {
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:100%;
+		padding:em(7)em(20) em(20) em(20);
+		background:rgba(0,0,0,0.7);
+		visibility:hidden;
+		@include bp(tablet) {
+			width:41.66666666666667%; /*  400 / 960 */
+			min-height:em(60);
+			visibility:visible;
+		}
+		h1 {
+			width:100%;
+			font-size:em(22);
+			font-weight:100;
+			color:#fff;
+			text-align:left !important;
+			@include bp(tablet) {
+				font-size:em(36);
+			}
+		}
+		p {
+			color:#fff;
+			font-size:em(12);
+			line-height:16px;
+			@include bp(tablet) {
+				font-size:em(17);
+				line-height:21px;
+			}
+		}
+	}
+}
+.feature-header figcaption.smaller {
+	padding:em(7) em(20) em(18) em(20);
+	@include bp(tablet) {
+		width:50%; /*  480 / 960 */
+	}
+	p {
+		color:#fff;
+		font-size:em(12);
+		line-height:16px;
+		@include bp(tablet) {
+			font-size:em(16);
+			line-height:17px;
+		}
+	}
+}
+.feature-header figcaption.wider {
+	padding:em(7) em(20) em(20) em(20);
+	@include bp(tablet) {
+		width:64.58333333333333%; /*  620 / 960 */
+	}
+	h1, p {
+		text-indent:0;
+	}
+}
+.feature-header figcaption.dueltitle {
+	position:absolute;
+	left:0;
+	bottom:auto;
+	top:30px;
+	padding:0 em(20) 0 em(20);
+	line-height:48px;
+	@include bp(tablet) {
+		top:65px;
+		width:37.20833333333333%; /*  338 / 960 */
+		min-height:em(50);
+	}
+	@include bp(desktop) {
+		top:102px;
+		width:35.20833333333333%; /*  338 / 960 */
+	}
+	h1 {
+		width:100%;
+		font-size:em(22);
+		font-weight:100;
+		color:#fff;
+		text-align:left !important;
+		@include bp(tablet) {
+			font-size:em(28);
+		}
+	}
+}
+.fourbox h1 {
+	color:$brand-dark;
+	font-size:em(30);
+	text-align:left;
+	margin-bottom:10px;
+	@include bp(tablet) {
+		font-size:em(35);
+		margin-bottom:23px;
+	}
+}

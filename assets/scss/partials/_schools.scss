@@ -1,0 +1,249 @@
+.banner-group {
+	display:block;
+	background: url(#{$assetPath}/schools-programme-feature-mobile.jpg) no-repeat top center;
+	@include bp(tablet) {
+		min-height:650px;
+		background: url(#{$assetPath}/schools-programme-feature.jpg) no-repeat top center;
+	}
+	.wrapper {
+		position:relative;
+	}
+	
+	.video {
+		position:absolute;
+		top:em(77);
+		right:0;
+		padding:em(20) em(20);
+		display:block;
+		background:#fff;
+		width:100%;
+		display:none;
+		@include bp(phonelarge) {
+			width:50%;
+			display:block;
+		}
+		@include bp(desktop) {
+			width:auto;
+		}
+	}
+}
+.video-container {
+	position:relative;
+	width:90%;
+	height:100%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:em(20);
+	@include bp(desktop) {
+		width:100%;
+		margin-bottom:0;
+	}
+	.play-button {
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:em(-57);
+		margin-left:em(-57);
+		width:114px;
+		height:114px;
+		display:block;
+		background:rgba(0,0,0,0.6) url(#{$assetPath}/play-arrow.svg) no-repeat center center;
+		@include bp(desktop) {
+			width:136px;
+			height:136px;
+			margin-top:em(-68);
+			margin-left:em(-68);
+		}
+	}
+}	
+.banner-text {
+	height:180px;
+	margin-top:em(20);
+	@include bp(phonelarge) {
+		width:auto;
+		margin-top:em(73);
+	}
+	@include bp(desktop) {
+		margin-top:em(72);
+	}
+	h1 {
+		color:#fff;
+		font-size:em(55);
+		line-height:57px;
+		font-weight:100;
+		font-family: "bebas-neue",sans-serif;
+		/*text-shadow: 1px -2px 1px #333333;*/
+		@include bp(tablet) {
+			font-size:em(100);
+			line-height:90px;
+			letter-spacing:3px;
+		}
+	}
+	p {
+		color:#fff;
+		font-size:em(15);
+		line-height:20px;
+		font-weight:100;
+		margin:em(22) 0;
+		font-family: "bebas-neue",sans-serif;
+		/*text-shadow: 1px -2px 1px #333333;*/
+		letter-spacing:1px;
+		visibility:hidden;
+		@include bp(tablet) {
+			font-size:em(25);
+			line-height:29px;
+			margin:em(8) 0 em(32) 0;
+			visibility:visible;
+		}
+	}
+}
+p.mobileheader {
+	color:$brand-dark;
+	font-size:em(18);
+	text-align:center;
+	margin-bottom:em(20);
+}
+section.abouttext {
+
+	h1 {
+		color:$brand-dark;
+		font-size:em(30);
+		font-weight:100;
+		margin-bottom:em(11);
+	}
+	p {
+		font-size:em(14);
+		line-height:18px;
+		margin-bottom:em(18);
+	}
+}
+	
+.prog-videos {
+	margin-top:0;
+	margin-bottom:em(26);
+	h2 {
+		color:$brand-dark;
+		font-size:em(22);
+		font-weight:100;
+		text-align:center;
+		margin-bottom:em(5);
+		@include bp(tablet) {
+			font-size:em(30);
+			text-align:left;
+		}
+	}
+}
+
+.pale-background {
+	width:100%;
+	padding:em(16) em(16);
+	display:inline-block;
+	background:$brand-lighter;
+}
+	
+.videoblock {
+	position:relative;
+	margin-bottom:em(20);
+	&:last-of-type {
+		margin-bottom:0;
+	}
+	@include bp(tablet) {
+		margin-bottom:0;
+	}
+	img {
+		display:block;
+		margin:0 auto;
+	}
+	.play-button {
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-top:em(-30);
+		margin-left:em(-30);
+		width:60px;
+		height:60px;
+		display:block;
+		background:rgba(0,0,0,0.6) url(#{$assetPath}/play-arrow-small.svg) no-repeat center center;
+		
+	}
+}
+	
+.projects {
+	h1 {
+		color:$brand-dark;
+		font-size:em(31);
+		padding:em(5) em(16);
+		font-weight:100;
+		background:rgba(172,192,38,0.40);
+	}
+	article {
+		position:relative;
+		width:100%;
+		display:inline-block;
+		background:#eaefca;
+		padding:em(16) em(16);
+		margin-bottom:em(20);
+		h1 {
+			color:$brand-dark;
+			font-size:em(29);
+			padding:0;
+			background:none;
+		}
+		p {
+			font-size:em(14);
+			line-height:18px;
+			margin-bottom:em(18);
+		}
+	}
+}
+article .cycle-slideshow {
+	float:left;
+	width:100%;
+	@include bp(tablet) {
+		width:43.4375%; /*  417 / 960 */
+		margin-right:3.125%; /*  30 / 960 */
+	}
+}
+article .text-content {
+	float:left;
+	width:100%;
+	@include bp(tablet) {
+		position:relative;
+		top:em(-11);
+		width:47.91666666666667%; /*  460 / 960 */
+	}
+}
+	
+.strap {
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	h3, p {
+		color:$brand-light-second;
+	}
+	h3 {
+		font-size:em(44);
+		line-height:48px;
+		font-weight:100;
+		margin-bottom:em(3);
+		@include bp(tablet) {
+			margin-bottom:0;
+		}
+	}
+	p {
+		font-size:em(20);
+		font-weight:100;
+		margin-bottom:em(26);
+	}
+	.button-light {
+		margin-bottom:em(26);
+	}
+}
+.strap.headeronly h3 {
+	margin-bottom:28px;
+}
+	
+	
+	
+	

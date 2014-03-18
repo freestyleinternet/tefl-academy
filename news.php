@@ -16,7 +16,7 @@
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
                         <p class="datetime">18 Dec 2013</p>
-                        <div class="button-light oarrow floatright" href="#">More<span></span></div>
+                        <div class="button-light oarrow floatright">More<span></span></div>
                     </a>
                 </article>
                 <article>
@@ -25,7 +25,7 @@
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
                         <p class="datetime">18 Dec 2013</p>
-                        <div class="button-light oarrow floatright" href="#">More<span></span></div>
+                        <div class="button-light oarrow floatright" >More<span></span></div>
                     </a>
                 </article>
                 <article>
@@ -34,7 +34,7 @@
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
                         <p class="datetime">18 Dec 2013</p>
-                        <div class="button-light oarrow floatright" href="#">More<span></span></div>
+                        <div class="button-light oarrow floatright">More<span></span></div>
                     </a>
                 </article>
                 <article>
@@ -43,7 +43,7 @@
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
                         <p class="datetime">18 Dec 2013</p>
-                        <div class="button-light oarrow floatright" href="#">More<span></span></div>
+                        <div class="button-light oarrow floatright">More<span></span></div>
                     </a>
                 </article>
                 <article>
@@ -52,7 +52,7 @@
                         <h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
                         <p>Word on the grapevine is that Hull is becoming the City of Culture!  With the variety of venues and events, from ...</p>
                         <p class="datetime">18 Dec 2013</p>
-                        <div class="button-light oarrow floatright" href="#">More<span></span></div>
+                        <div class="button-light oarrow floatright">More<span></span></div>
                     </a>
                 </article>
                 <div class="pagination">
@@ -90,7 +90,7 @@
             <div class="home-feature nocontent special">
        			<img src="assets/images/feature5.svg" alt="TEFL Academy"/>
                 <h2>Bring a friend <br>&amp; save £50!</h2>
-                <h3>Book 2 places at the<br>same time &amp; get £50 off</h3>
+                <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
             	<a class="button-light oarrow absolutebr" href="#">Book Now<span></span></a>
             </div>
             <div class="home-feature nocontent hbg">
