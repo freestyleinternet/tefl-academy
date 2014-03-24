@@ -38,7 +38,7 @@
                     <p>Vestibulum sed mi commodo neque imperdiet rutrum. Nulla porttitor dapibus augue quis bibendum.</p>
                     <form class="modalform" action="#" method="post">
                         <div>
-                            <label>Full Name</label>
+                            <label>Name</label>
                             <input type="text">
                         </div>
                         <div>
@@ -46,31 +46,59 @@
                             <input type="text">
                         </div>
                         <div>
-                            <label>Telephone</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <label>Prefered Study Location</label>
-                            <div class="styled">
-                               <select>
-                                  <option>Please select</option>
-                                  <option>Option one</option>
-                                  <option>Option two</option>
-                                  <option>Option three</option>
-                               </select>
-                            </div>
-                        </div>
-                        <div>
                             <label>Message</label>
                             <textarea></textarea>
                         </div>
                         <div>
-                            <label class="fullwidth">PLEASE ENTER THE CODE BELOW</label>
-                            <label class="code">6nc2m</label>
+							<label>Upload CV</label>
+                            <input type="file">
                         </div>
                         <div>
-                            <label>Type Code Here</label>
-                            <input type="text">
+                            <label>Send me alerts for</label>
+                            <!--<div class="styled multiple">
+                               <select multiple>
+                                  <option>Please select</option>
+                                  <option>Option one</option>
+                                  <option>Option two</option>
+                                  <option>Option three</option>
+                                  <option>Option one</option>
+                                  <option>Option two</option>
+                                  <option>Option three</option>
+                                  <option>Option one</option>
+                                  <option>Option two</option>
+                                  <option>Option three</option>
+                               </select>
+                            </div>-->
+                            <div class="multiplecheck">
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+                                 Country name</label>
+
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+                                 Country name</label>
+                              
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+                                 Country name</label>
+                              
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_3">
+                                 Country name</label>
+                                 
+                                 <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_4">
+                                 Country name</label>
+
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_5">
+                                 Country name</label>
+                              
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_6">
+                                 Country name</label>
+
+                             </div>
                         </div>
                         <input class="buttontype" type="submit" value="Submit">
                     </form>
@@ -81,21 +109,34 @@
         
         <aside class="m1 t4 d4 displaydesktop">
         	<div class="home-feature nocontent">
-       			<img src="assets/images/feature3.svg" alt="TEFL Academy"/>
-                <h2>Find your<br>Local course</h2>
-                <h3>UK wide courses<br>every month</h3>
-            	<a class="button-light oarrow absolutebr" href="#">Search<span></span></a>
+       			<a href="#">
+                    <img src="assets/images/feature3.svg" alt="TEFL Academy"/>
+                    <h2>Find your<br>Local course</h2>
+                    <h3>UK wide courses<br>every month</h3>
+                    <div class="button-light oarrow absolutebr" href="#">Search<span></span></div>
+                </a>
             </div>
             <div class="home-feature nocontent">
-            	<img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
-                <h2>Download 2013<br>Prospectus</h2>
-            	<a class="button-light oarrow absolutebr" href="#">Download<span></span></a>
+            	<a href="#">
+                    <img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
+                    <h2>Download 2014<br>Prospectus</h2>
+                    <div class="button-light oarrow absolutebr" href="#">Download<span></span></div>
+                </a>
             </div>
             <div class="home-feature nocontent special">
-       			<img src="assets/images/feature5.svg" alt="TEFL Academy"/>
-                <h2>Bring a friend <br>&amp; save £50!</h2>
-                <h3>Book 2 places at the<br>same time &amp; get </h3>
-            	<a class="button-light oarrow absolutebr" href="#">Book Now<span></span></a>
+       			<a href="#">
+                    <img src="assets/images/feature5.svg" alt="TEFL Academy"/>
+                    <h2>Bring a friend <br>&amp; save £50!</h2>
+                    <h3>Book 2 places at the<br>same time &amp; get </h3>
+                    <div class="button-light oarrow absolutebr" href="#">Book Now<span></span></div>
+                </a>
+            </div>
+            <div class="home-feature nocontent hbg">
+            	<a href="#">
+                    <img src="assets/images/feature6.jpg" alt="TEFL Academy"/>
+                    <h2>Schools <br>Programme</h2>
+                    <div class="button-light oarrow absolutebr" href="#">More Info<span></span></div>
+                </a>
             </div>
         </aside>
         
@@ -165,7 +206,7 @@
             </div>
             <div class="home-feature nocontent">
                 <img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
-                <h2>Download 2013<br>Prospectus</h2>
+                <h2>Download 2014<br>Prospectus</h2>
                 <a class="button-light oarrow absolutebr" href="#">Download<span></span></a>
             </div>
             <div class="home-feature nocontent special">

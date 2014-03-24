@@ -21,6 +21,20 @@ body {
 	body.teachingabroad {
 		background:url(#{$assetPath}/teachabroad-background.jpg) no-repeat center 169px;	
 	}
+	body.storiesinner {
+		background:url(#{$assetPath}/storiesinner-background.jpg) no-repeat center 169px;	
+	}
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('assets/fonts/bebas___-webfont.eot');
+    src: url('assets/fonts/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/bebas___-webfont.woff') format('woff'),
+         url('assets/fonts/bebas___-webfont.ttf') format('truetype'),
+         url('assets/fonts/bebas___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 a,
@@ -119,9 +133,21 @@ body {
 		display:none !important;
 	}
 }
+.displaymobileipad {
+	display:block;
+	@include bp(desktop) {
+		display:none !important;
+	}
+}
 .displaydesktop {
 	display:none !important;
 	@include bp(tablet) {
+		display:block !important;
+	}
+}
+.displaydesktoponly {
+	display:none !important;
+	@include bp(desktop) {
 		display:block !important;
 	}
 }
@@ -188,13 +214,16 @@ section.banner {
 		text-align:center;
 	}
 	&.largejobs {
-		min-height:49px;
-		line-height:40px;
+		min-height:51px;
+		line-height:41px;
 		font-size:em(24);
 		@include bp(desktop) {
 			min-height:38px;
 			line-height:38px;
 		}
+	}
+	&.darkgreen {
+		background:$brand-dark;
 	}
 }
 .people {
@@ -218,6 +247,7 @@ section.banner {
 		height:40px;
 		background:$brand-light url(#{$assetPath}/arrow-right-small.svg) no-repeat center center;
 	}
+	
 }
 .bubble {
 	width:100%;
@@ -258,6 +288,16 @@ section.banner {
 			float:right;
 			right:0;
 			margin-right:0;
+		}
+	}
+	&.tall {
+		font-size:em(13);
+		min-height:40px;
+		line-height:34px;
+		
+		span {
+			width:40px;
+			height:40px;
 		}
 	}
 }
@@ -359,6 +399,9 @@ section.banner {
 	&.green span {
 		background-color:$brand-light;
 	}
+	&.darkgreen span {
+		background-color:$brand-dark;
+	}
 	&.margintop {
 		margin-top:em(20);
 	}
@@ -442,6 +485,7 @@ section.banner {
 .social-footer {
 	float:right;
 	margin-top:em(26);
+	
 	li {
 		float:right;
 		@include bp(tablet) {
@@ -488,6 +532,22 @@ header {
 .logo {
 	display:block;
 	margin:0 auto;
+	width:334px;
+	height:83px;
+	background:url(#{$assetPath}/tefl-logo.png) no-repeat top left;
+	@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) { 
+		background:url(#{$assetPath}/tefl-logo@2x.png) no-repeat top left;
+		-webkit-background-size: 334px 83px;
+		   -moz-background-size: 334px 83px;
+			 -o-background-size: 334px 83px;
+				background-size: 334px 83px;
+	}
 	@include bp(tablet) {
 		float:left;
 	}
@@ -609,12 +669,12 @@ header .contact {
 }
 .verticalmoneyoff {
 	display:none;
-	position:absolute;
-	top:em(164);
+	position:fixed;
+	top:50%;
 	right:0;
 	width:40px;
 	height:140px;
-
+	margin-top:-70px;
 	text-transform:uppercase;
 	text-indent:em(16);
 	background:url(#{$assetPath}/money-off-tab.svg) no-repeat 0 0;
@@ -660,6 +720,7 @@ h2.title {
 		margin-left:0;
 	}
 	p {
+		color:$body-copy;
 		display:none;
 		font-size:em(14);
 		line-height:20px;
@@ -784,6 +845,10 @@ h2.title {
 		margin-top:em(26);
 		margin-bottom:em(13);
 	}
+}
+
+.teachingabroad .pale-strip {
+	margin-bottom:em(26);
 }
 
 /*  Newsletter box home page */
@@ -928,6 +993,9 @@ h2.title {
 			position:static;
 			background:none;
 		}
+		p {
+			font-weight:100;
+		}
 	}
 }
 
@@ -953,6 +1021,10 @@ h2.title {
 		line-height:30px;
 		padding:em(6) 0;
 		background:$brand-lighter;
+	}
+	&.twittertab label {
+		text-align:left;
+		padding-left:em(10);
 	}
 	[type=radio] {
 		display: none;   
@@ -981,7 +1053,21 @@ h2.title {
 		border-bottom:1px solid #fff;
 	}
 	.twitter-timeline-container { width: 100% !important; }
+	#tweets {
+		width:100%;
+		height:267px !important;
+	}
+	&.nopadding {
+		padding-left:0;
+		padding-right:0;
+		h2 {
+			margin-left:em(14);
+			border-bottom:none;
+		}
+	}
 }
+
+
 [type=radio]:checked ~ label {
 	color:#fff;
 	font-size:em(22);
@@ -1002,7 +1088,7 @@ h2.title {
 }
 .tab-three {
 	float: left;
-	width:32.25%;
+	width:32.22%;
 	min-height:30px;
 	margin-right:2%;
 	display:inline-block;
@@ -1019,7 +1105,7 @@ h2.title {
 		text-align:center;
 		display:inline-block;
 		color:$brand-dark;
-		font-size:em(22);
+		font-size:em(20);
 		line-height:30px;
 		padding:em(6) 0;
 		background:rgba(172, 192, 38, 0.15);
@@ -1034,7 +1120,7 @@ h2.title {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	min-height:260px;
+	min-height:350px;
 	padding:0;
 	margin-bottom:em(26);
 	@include bp(desktop) {
@@ -1055,17 +1141,90 @@ h2.title {
 		display:none;
 	}
 }
+.tab-content-three {
+	.content-box {
+		position:relative;
+		float:left;
+		width:41.79663865546218%; /*  297 / 714 */
+		min-height:350px;
+		padding:em(30);
+		background:$brand-light;
+
+		@include bp(desktop) {
+			height:100%;
+			width:41.59663865546218%; /*  297 / 714 */
+		}
+		h1, h2, h3, p {
+			color:#fff;
+			background:none;
+			border:none;
+			margin:0;
+			padding:0;
+			display:block;
+			text-align:center;
+		}
+		h1 {
+			font-size:em(28);
+			line-height:20px;
+		}
+		h2 {
+			position:relative;
+			top:em(-4);
+			font-size:em(55);
+			line-height:50px;
+			font-weight:400;
+			margin-bottom:19px;
+		}
+		h3 {
+			font-size:em(24);
+			font-weight:400;
+		}
+		p {
+			font-size:em(30);
+			margin-bottom:31px;
+		}
+		.cost {
+			font-size:em(16);
+			margin-bottom:0;
+		}
+		img.arrow {
+			position:absolute;
+			top:50%;
+			right:-37px;
+			margin-top:-37px;
+		}
+		.button-light {
+			width:187px;
+			min-height:40px;
+			display:block;
+			font-weight:em(22);
+			text-align:left;
+			margin:em(19) auto 0 auto;
+			@include bp(tablet) {
+				margin:em(50) auto 0 auto;
+			}
+			@include bp(desktop) {
+				margin:em(19) auto 0 auto;
+			}
+		}
+	}
+	img.rightalign {
+		float:right;
+		width:58.40336134453782%; /*  417 / 714 */
+	}
+}
 .tabs-three [type=radio]:checked ~ label {
 	color:#fff;
-	font-size:em(22);
+	font-size:em(20);
 	padding:em(6) 0 em(10) 0;
 	background:$brand-dark;
 	z-index: 2;
 }
 .tabs-three [type=radio]:checked ~ label ~ .tab-content-three {
-	background:$brand-dark;
+	background:#eef2d4;
 	z-index: 1;
 }
+
 
 /*  */
 .teachingtabs {
@@ -1092,7 +1251,7 @@ footer {
 	display:inline-block;
 	padding:0;
 	background:rgba(172,192,38,0.10);
-	@include bp(tablet) {
+	@include bp(desktop) {
 		padding:em(26) 0 0 0;
 	}
 	ul li {
@@ -1127,7 +1286,7 @@ footer {
 	background:$brand-orange;
 	@include bp(tablet) {
 		position:fixed;
-		bottom:60px;
+		bottom:0;
 		right:0;
 		z-index:4000;
 	}
@@ -1208,12 +1367,21 @@ aside {
 		font-size:em(16);
 		background:$brand-dark url(#{$assetPath}/arrow-right-small.svg) no-repeat 95% center;
 	}
+	&.topbottom {
+		text-align:center;
+		font-size:em(18);
+		padding:em(5) em(5);
+		margin-bottom:0;
+	}
 }
 
-p.green-note {
+.bodycopy p.green-note {
 	color:#59a618;
-	font-size:em(16);
+	font-size:em(18);
 	font-weight:400;
+}
+.bodycopy img.spacer {
+	margin-bottom:em(10);
 }
 
 /*  Job page outside of grid */
@@ -1337,7 +1505,8 @@ aside.typetwo {
 	.styled,
 	textarea,
 	input[type=text],
-	input[type=email] {
+	input[type=email],
+	input[type=file] {
 		margin-bottom:em(6);
 	}
 	.close {

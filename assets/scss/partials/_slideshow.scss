@@ -57,6 +57,12 @@
 	}
 }
 
+.pale-strip .cycle-pager {
+	@include bp(tablet) {
+		display:none;
+	}
+}
+
 /*  Testimonails slider home page */
 .testimonials-slider {
 	position:relative;
@@ -84,7 +90,7 @@
 		}
 	}
 	.button-light {
-		float:right;
+		float:left;
 		@include bp(tablet) {
 			float:left;
 		}

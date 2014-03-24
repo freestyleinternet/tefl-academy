@@ -75,6 +75,37 @@ blockquote.central {
 	text-align:center;
 	padding: 10px 0 10px 40px; 
 }
+blockquote.large {
+	position:relative; 
+	width:90%;
+	display:block;
+	background: url(#{$assetPath}/large-quote.svg) no-repeat 0 30px; 
+	padding: 10px 0 10px 70px; 
+	margin:0; 
+	font-size:em(18);
+	line-height:25px;
+	color:$brand-dark;
+	box-sizing: border-box;
+	margin:em(30) auto em(5) auto;
+	font-weight:400;
+	@include bp(tablet) {
+		width:99.0625%;  /*  317 / 320 */
+		margin-top:0;
+	}
+	@include bp(desktop) {
+		float:right;
+		width:99.0625%;  /*  317 / 320 */
+	}
+	span {
+		float:right;
+		width:26px;
+		height:23px;
+		display:block;
+		margin-left:5px;
+		margin-top:7px;
+		background: url(#{$assetPath}/small-quote.svg) no-repeat 0 0; 
+	}
+}
 
 .news-intro {
 	width:90%;
@@ -98,13 +129,12 @@ blockquote.central {
 		font-size:em(18);
 		color:$brand-dark;
 		font-weight:100;
-		padding:em(5) em(16);
-	
+		padding:em(2) em(16);
 		background:rgba(172,192,38,0.25);
 		@include bp(tablet) {
 			font-size:em(24);
 			text-align:left;
-			
+			min-height:40px;	
 		}
 	}
 	p {
@@ -119,6 +149,15 @@ blockquote.central {
 		@include bp(desktop) {
 			padding:em(20) em(16) em(20) em(70);
 			background: url(#{$assetPath}/green-world.svg) no-repeat 25px 21px;
+		}
+		&.noimg {
+			color:$brand-dark;
+			font-size:em(16);
+			line-height:20px;
+			background:none;
+			text-align:center;
+			font-weight:400;
+			padding:em(20) em(16) em(20) em(20);
 		}
 	}
 	&.single {
@@ -191,8 +230,8 @@ blockquote.central {
 			position:absolute;
 			top:0;
 			right:0;
-			height:49px;
-			line-height:48px;
+			min-height:40px;
+			line-height:40px;
 			padding:0 em(16) 0 em(16);
 			color:#fff;
 			font-size:14px;
@@ -201,8 +240,11 @@ blockquote.central {
 		}
 	}
 	ul {
+		min-height:em(34);
+		display:inline-block;
 		margin-left:em(25);
 		margin-top:em(15);
+		margin-bottom:em(10);
 		li {
 			float:left;
 			font-size:em(13);
@@ -218,6 +260,12 @@ blockquote.central {
 }
 
 .news-intro.jobs {
+	@include bp(tablet) {
+		min-height:em(188);
+	}
+	@include bp(desktop) {
+		min-height:em(211);
+	}
 	h1 img {
 		margin-right:em(10);
 	}
@@ -383,6 +431,15 @@ blockquote.central {
 		position:relative;
 		top:em(-5);
 		width:50.42016806722689%; /*  360 / 714 */
+		&.coursebx {
+			width:52.52100840336134%; /*  375 / 714 */
+		}
+	}
+	&.removetopmarginmobile {
+		margin-top:0;
+		@include bp(tablet) {
+			margin-top:em(26);
+		}
 	}
 	h1 {
 		color:$brand-dark;
@@ -468,6 +525,7 @@ blockquote.central {
 	list-style-type:none;
 	margin-left:em(20);
 	li {
+		font-size:em(14);
 		margin-bottom:em(5);
 		padding-left:em(25);
 		background:url(#{$assetPath}/green-tick.svg) no-repeat top left;
@@ -475,10 +533,11 @@ blockquote.central {
 }
 .bodycopy.coursebx .indent{
 	@include bp(tablet) {
-		margin-left:em(30);
+		margin-left:em(60);
 	}
 }
 .bodycopy.block {
+	margin-top:em(31);
 	h1 {
 		color:#fff;
 		background:$brand-dark;
@@ -549,6 +608,10 @@ blockquote.central {
 	}
 	.button-light {
 		margin-bottom:em(26);
+		&.indent {
+			left:50%;
+			margin-left:-61px;
+		}
 	}
 	&.removetopmarginzero {
 		margin-top:0;

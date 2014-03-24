@@ -34,49 +34,61 @@
     	
         <div class="m1 s1 t1 d1">
             <div class="home-feature">
-                <div class="caption">
-                    <img src="assets/images/feature1.jpg" alt="TEFL Academy"/>
-                    <h1>Meet our Students</h1>
-                </div>
-                <p>When our students graduate from our TEFL course they head off to almost every country in the world. We asked some of these teachers to send us their stories...</p>
-                <a class="button-light oarrow absolutebr displaydesktop" href="#">More Info<span></span></a>
-        	</div>
+                <a href="#">
+                    <div class="caption">
+                        <img src="assets/images/feature1.jpg" alt="TEFL Academy"/>
+                        <h1>Meet our Students</h1>
+                    </div>
+                    <p>When our students graduate from our TEFL course they head off to almost every country in the world. We asked some of these teachers to send us their stories...</p>
+                    <div class="button-light oarrow absolutebr displaydesktop" href="#">More Info<span></span></div>
+        		</a>
+            </div>
 		</div>
          <div class="m1 s2 t2 d2">
             <div class="home-feature">
-                <div class="caption half">
-                    <img src="assets/images/feature2.jpg" alt="TEFL Academy"/>
-                    <h1>TEFL Jobs</h1>
-                </div>
-                <p>On successful completion of our 120 hour course you can start applying for jobs on our exclusive jobs board. Remember to check this page regularly...</p>
-                <a class="button-light oarrow absolutebr displaydesktop" href="#">More Info<span></span></a>
+                <a href="#">
+                    <div class="caption half">
+                        <img src="assets/images/feature2.jpg" alt="TEFL Academy"/>
+                        <h1>TEFL Jobs</h1>
+                    </div>
+                    <p>On successful completion of our 120 hour course you can start applying for jobs on our exclusive jobs board. Remember to check this page regularly...</p>
+                    <div class="button-light oarrow absolutebr displaydesktop" href="#">More Info<span></span></div>
+                </a>
             </div>
         </div>
             
        <div class="m1 s1 t3 d3">
         	<div class="home-feature nocontent">
-       			<img src="assets/images/feature3.svg" alt="TEFL Academy"/>
-                <h2>Find your<br>Local course</h2>
-                <h3>UK wide courses<br>every month</h3>
-            	<a class="button-light oarrow absolutebr" href="#">Search<span></span></a>
+       			<a href="#">
+                    <img src="assets/images/feature3.svg" alt="TEFL Academy"/>
+                    <h2>Find your<br>Local course</h2>
+                    <h3>UK wide courses<br>every month</h3>
+                    <div class="button-light oarrow absolutebr" href="#">Search<span></span></div>
+                </a>
             </div>
             <div class="home-feature nocontent special">
-       			<img src="assets/images/feature5.svg" alt="TEFL Academy"/>
-                <h2>Bring a friend <br>&amp; save £50!</h2>
-                <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
-            	<a class="button-light oarrow absolutebr" href="#">Enrol Now<span></span></a>
+       			<a href="#">
+                    <img src="assets/images/feature5.svg" alt="TEFL Academy"/>
+                    <h2>Bring a friend <br>&amp; save £50!</h2>
+                    <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
+                    <div class="button-light oarrow absolutebr" href="#">Enrol Now<span></span></div>
+                </a>
             </div>
         </div>
         <div class="m1 s2 t4 d4">
        		<div class="home-feature nocontent">
-            	<img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
-                <h2>Download 2013<br>Prospectus</h2>
-            	<a class="button-light oarrow absolutebr" href="#openModal3" type="button" value="Zoom In Modal Window"  data-type="zoomin">Download<span></span></a>
+            	<a href="#openModal3" type="button" value="Zoom In Modal Window"  data-type="zoomin">
+                <img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
+                <h2>Download 2014<br>Prospectus</h2>
+            	<div class="button-light oarrow absolutebr">Download<span></span></div>
+            	</a>
             </div>
             <div class="home-feature nocontent hbg">
-            	<img src="assets/images/feature6.jpg" alt="TEFL Academy"/>
-                <h2>Schools <br>Programme</h2>
-            	<a class="button-light oarrow absolutebr" href="#">More Info<span></span></a>
+            	<a href="#">
+                    <img src="assets/images/feature6.jpg" alt="TEFL Academy"/>
+                    <h2>Schools <br>Programme</h2>
+                    <div class="button-light oarrow absolutebr" href="#">More Info<span></span></div>
+                </a>
             </div>
         </div>
         

@@ -78,6 +78,28 @@ h1 ul.container-star {
 		background:url(#{$assetPath}/star.svg) repeat top left;		
 	}
 }
+.scrollerbox {
+	width:100%;
+	display:inline-block;
+	height:350px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.testimonials.scrollerbox article {
+	width:90%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background:none;
+	h1 {
+		line-height:30px;
+	}
+	ul.container-star {
+		margin:0 0 0 0;
+	}
+}
+
+
 /*
 .container-star {
 	float:right;

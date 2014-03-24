@@ -65,19 +65,17 @@
 		margin-top:em(73);
 	}
 	@include bp(desktop) {
-		margin-top:em(72);
+		margin-top:em(82);
 	}
 	h1 {
 		color:#fff;
 		font-size:em(55);
 		line-height:57px;
 		font-weight:100;
-		font-family: "bebas-neue",sans-serif;
-		/*text-shadow: 1px -2px 1px #333333;*/
+		font-family: 'bebasregular';
 		@include bp(tablet) {
-			font-size:em(100);
+			font-size:em(83);
 			line-height:90px;
-			letter-spacing:3px;
 		}
 	}
 	p {
@@ -86,16 +84,18 @@
 		line-height:20px;
 		font-weight:100;
 		margin:em(22) 0;
-		font-family: "bebas-neue",sans-serif;
-		/*text-shadow: 1px -2px 1px #333333;*/
-		letter-spacing:1px;
+		font-family: 'bebasregular';
 		visibility:hidden;
 		@include bp(tablet) {
 			font-size:em(25);
-			line-height:29px;
+			line-height:33px;
 			margin:em(8) 0 em(32) 0;
 			visibility:visible;
 		}
+	}
+	.button-light.oarrow.largeorange {
+		width:315px;
+		padding-right:em(20);
 	}
 }
 p.mobileheader {

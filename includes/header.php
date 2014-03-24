@@ -117,9 +117,7 @@
     <link rel="stylesheet" href="style.css">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    
-    <script type="text/javascript" src="//use.typekit.net/sjx4uwv.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 
 <body <?php echo $pageactive; ?>>
@@ -192,7 +190,7 @@
             	<div class="contact displaymobile">
                     <p><img src="assets/images/phone-icon-orange-mobile.svg" alt="TEFL Academy Phone Number"/><span>01273 806 380</span></p>
                 </div>
-       	    	<a href="index.php"><img class="logo" src="assets/images/tefl-academy-logo.svg" alt="TEFL Academy"/></a>
+       	    	<a class="logo" href="index.php"></a>
                 <div class="searchmobile displaymobile">
                 	<form class="search-form" action="#" method="post">
                         <input class="search" type="text" placeholder="Search">

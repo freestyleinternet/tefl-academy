@@ -638,31 +638,39 @@
         
         <div class="m1 s1 t1 d1">
             <div class="home-feature nocontent hbg ">
-                <img src="assets/images/feature2.jpg" alt="TEFL Academy"/>
-                <h2 class="left half">TEFL Jobs</h2>
-                <a class="button-light oarrow absolutebr" href="#">More Info<span></span></a>
+                <a href="#">
+                    <img src="assets/images/feature2.jpg" alt="TEFL Academy"/>
+                    <h2 class="left half">TEFL Jobs</h2>
+                    <div class="button-light oarrow absolutebr">More Info<span></span></div>
+                </a>
             </div>
         </div>
         <div class="m1 s2 t2 d2">
             <div class="home-feature nocontent ">
-                <img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
-                <h2>Download 2013<br>Prospectus</h2>
-                <a class="button-light oarrow absolutebr" href="#">Download<span></span></a>
+                <a href="#">
+                    <img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
+                    <h2>Download 2014<br>Prospectus</h2>
+                    <div class="button-light oarrow absolutebr">Download<span></span></div>
+                </a>
             </div>
         </div>
         <div class="m1 s1 t3 d3">
             <div class="home-feature nocontent special">
-                <img src="assets/images/feature5.svg" alt="TEFL Academy"/>
-                <h2>Bring a friend <br>&amp; save £50!</h2>
-                <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
-                <a class="button-light oarrow absolutebr" href="#">Book Now<span></span></a>
+                <a href="#">
+                    <img src="assets/images/feature5.svg" alt="TEFL Academy"/>
+                    <h2>Bring a friend <br>&amp; save £50!</h2>
+                    <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
+                    <div class="button-light oarrow absolutebr">Book Now<span></span></div>
+                </a>
             </div>
         </div>
         <div class="m1 s2 t4 d4">
             <div class="home-feature nocontent hbg">
-                <img src="assets/images/feature6.jpg" alt="TEFL Academy"/>
-                <h2>Schools <br>Programme</h2>
-                <a class="button-light oarrow absolutebr" href="#">More Info<span></span></a>
+                <a href="#">
+                    <img src="assets/images/feature6.jpg" alt="TEFL Academy"/>
+                    <h2>Schools <br>Programme</h2>
+                    <div class="button-light oarrow absolutebr">More Info<span></span></div>
+                </a>
             </div>
         </div>
         

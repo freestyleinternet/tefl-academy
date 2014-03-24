@@ -1,5 +1,5 @@
     <footer>
-    	<div class="ac-container sitemap displaymobile">
+    	<div class="ac-container sitemap displaymobileipad">
             <div>
                   <input id="ac-50" name="accordion-1" type="checkbox" />
                   <label for="ac-50">Sitemap</label>
@@ -26,7 +26,7 @@
               </div>
         </div>
         
-        <div class="wrapper displaydesktop">
+        <div class="wrapper displaydesktoponly">
             <div class="m1 s1 t1 d1 box">
                 <ul>
                 	<li><a href="#">Home</a></li>
@@ -102,7 +102,7 @@
     var locations = [
       [
 	  '<div id="content">'+
-			  	  '<h1>TEFL Sheffield</h1>'+
+			  	  '<h1>TEFL Aberdeen</h1>'+
 				  '<div id="bodyContent">'+
 					  '<ul>'+
 					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
@@ -113,7 +113,33 @@
 						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
 					  '</ul>' +
 				  '</div>'+
-	  '</div>', 53.38113 , -1.47009],
+	  '</div>', 57.14356 , -2.09690],
+      ['<div id="content">'+
+			  	  '<h1>TEFL Norwich</h1>'+
+				  '<div id="bodyContent">'+
+					  '<ul>'+
+					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
+						'<li>near 119 Eyre St,</li>' +
+						'<li>City Centre, Sheffield, UK</li>' +
+						'<li class="borderbx">01273 806 380</li>' +
+						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li>' +
+						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
+					  '</ul>' +
+				  '</div>'+
+	  '</div>', 52.63217 , 1.29845],
+	  ['<div id="content">'+
+			  	  '<h1>TEFL Plymouth</h1>'+
+				  '<div id="bodyContent">'+
+					  '<ul>'+
+					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
+						'<li>near 119 Eyre St,</li>' +
+						'<li>City Centre, Sheffield, UK</li>' +
+						'<li class="borderbx">01273 806 380</li>' +
+						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li>' +
+						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
+					  '</ul>' +
+				  '</div>'+
+	  '</div>', 50.37143 , -4.13469],
       ['<div id="content">'+
 			  	  '<h1>TEFL Cardiff</h1>'+
 				  '<div id="bodyContent">'+
@@ -126,20 +152,7 @@
 						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
 					  '</ul>' +
 				  '</div>'+
-	  '</div>', 51.48158 , -3.17909],
-      ['<div id="content">'+
-			  	  '<h1>TEFL Sheffield</h1>'+
-				  '<div id="bodyContent">'+
-					  '<ul>'+
-					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
-						'<li>near 119 Eyre St,</li>' +
-						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx">01273 806 380</li>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li>' +
-						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
-					  '</ul>' +
-				  '</div>'+
-	  '</div>', 51.50852 , -0.12549]
+	  '</div>', 51.47621 , -3.17673]
     ];
     
     // Setup the different icons and shadows

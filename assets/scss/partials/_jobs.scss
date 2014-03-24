@@ -181,7 +181,7 @@
 	}
 }
 .info-icons .container-bg {
-	padding-left:em(15);
+	padding-left:em(20);
 }
 
 .ac-container {
@@ -244,15 +244,22 @@
 	}
 	ul.ticklist {
 		margin-left:em(22);
-		margin-top:em(27);
+		margin-top:em(20);
+		@include bp(tablet) {
+			margin-top:em(27);
+		}
 		li {
 			color:$body-copy;
-			font-size:em(14);
+			font-size:em(12);
 			line-height:18px;
 			background:none;
 			padding:0 0 0 em(25);
 			margin-bottom:em(13);
 			background:url(#{$assetPath}/green-tick.svg) no-repeat top left;
+			@include bp(tablet) {
+				font-size:em(14);
+				line-height:18px;
+			}
 		}
 	}
 	p {
@@ -388,17 +395,24 @@
 
 /*  Course landing page */
 .ac-container.icons-course {
-	width:100%;
+	width:90%;
 	display:inline-block;  
-	margin:0 auto em(24) auto; 
+	margin:0 auto em(24) 5%; 
+	@include bp(tablet) {
+		width:100%;
+		margin-left:0;
+	}
 	label {
 		color:$brand-dark;
 		font-size:em(12);
 		padding-left:em(16);
-		background:rgba(172,192,38, 0.2) url(#{$assetPath}/accordion-arrow-green.svg) no-repeat 95% center;
+		background:rgba(172,192,38, 0.2) url(#{$assetPath}/accordion-arrow-green.svg) no-repeat 97% center;
 		@include bp(tablet) {
 			font-size:em(16);
-			background:rgba(172,192,38, 0.2) url(#{$assetPath}/accordion-arrow-green.svg) no-repeat 95% center;
+			background:rgba(172,192,38, 0.2) url(#{$assetPath}/accordion-arrow-green.svg) no-repeat 97% center;
+		}
+		@include bp(desktop) {
+			font-size:em(20);
 		}
 		img {
 			background-size:22px 26px;
@@ -406,14 +420,14 @@
 		}
 	}
 }
-.ac-container.icons-course input:checked ~ article.ac-large{
+.ac-container.icons-course input:checked ~ article.ac-large {
     height: 300px;
 	@include bp(tablet) {
 		height: 221px;
 	}
 }
 .ac-container.icons-course input:checked + label {
-	background:rgba(172,192,38, 0.2) url(#{$assetPath}/accordion-arrow-green.svg) no-repeat 95% center;
+	background:rgba(172,192,38, 0.2) url(#{$assetPath}/accordion-arrow-green.svg) no-repeat 97% center;
 }
 
 .ac-container.icons-course.info-icons {

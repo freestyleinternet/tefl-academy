@@ -6,7 +6,7 @@
             	<div class="banner-text">
                     <h1>SCHOOLS PROGRAMME 2014</h1>
                     <p>Supporting and promoting English tuition in the developing world</p>
-                    <a class="button-light oarrow largeorange displaydesktop" href="#">GET INVOLVED<span></span></a>
+                    <a class="button-light oarrow largeorange displaydesktop" href="#openModal4"  type="button" value="Zoom In Modal Window"  data-type="zoomin">GET INVOLVED<span></span></a>
                 </div>
             </div>
 			<div class="video">
@@ -17,6 +17,52 @@
             </div>
         </div>
     </div>
+    
+    <div id="openModal4" class="modalDialog">
+            <div class="window-container form-modal zoomin">
+                <a href="#close" title="Close" class="close"></a>
+                <h1>APPLY NOW</h1>
+                <p>Vestibulum sed mi commodo neque imperdiet rutrum. Nulla porttitor dapibus augue quis bibendum.</p>
+                <form class="modalform" action="#" method="post">
+                    <div>
+                        <label>Full Name</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Telephone</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Prefered Study Location</label>
+                        <div class="styled">
+                           <select>
+                              <option>Please select</option>
+                              <option>Option one</option>
+                              <option>Option two</option>
+                              <option>Option three</option>
+                           </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Message</label>
+                        <textarea></textarea>
+                    </div>
+                    <div>
+                        <label class="fullwidth">PLEASE ENTER THE CODE BELOW</label>
+                        <label class="code">6nc2m</label>
+                    </div>
+                    <div>
+                        <label>Type Code Here</label>
+                        <input type="text">
+                    </div>
+                    <input class="buttontype" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     
     <div class="wrapper">
     	<section class="m1 t1-t2 d1-d2 displaymobile">
@@ -58,29 +104,37 @@
         <div class="m1 t3-t4 d3-d4">
             <section class="m1 t3 d3">
                 <div class="home-feature nocontent">
-                    <img src="assets/images/feature3.svg" alt="TEFL Academy"/>
-                    <h2>Find your<br>Local course</h2>
-                    <h3>UK wide courses<br>every month</h3>
-                    <a class="button-light oarrow absolutebr" href="#">Search<span></span></a>
+                    <a href="#">
+                        <img src="assets/images/feature3.svg" alt="TEFL Academy"/>
+                        <h2>Find your<br>Local course</h2>
+                        <h3>UK wide courses<br>every month</h3>
+                        <div class="button-light oarrow absolutebr">Search<span></span></div>
+                    </a>
                 </div>
                 <div class="home-feature nocontent special">
-                    <img src="assets/images/feature5.svg" alt="TEFL Academy"/>
-                    <h2>Bring a friend <br>&amp; save £50!</h2>
-                    <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
-                    <a class="button-light oarrow absolutebr" href="#">Book Now<span></span></a>
+                    <a href="#">
+                        <img src="assets/images/feature5.svg" alt="TEFL Academy"/>
+                        <h2>Bring a friend <br>&amp; save £50!</h2>
+                        <h3>Book 2 places at the<br>same time &amp; get <strong>£50 off</strong></h3>
+                        <div class="button-light oarrow absolutebr" href="#">Book Now<span></span></div>
+                    </a>
                 </div>
             </section>
             
             <section class="m1 t4 d4">
                 <div class="home-feature nocontent">
-                    <img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
-                    <h2>Download 2013<br>Prospectus</h2>
-                    <a class="button-light oarrow absolutebr" href="#">Download<span></span></a>
+                    <a href="#">
+                        <img src="assets/images/feature4.jpg" alt="TEFL Academy"/>
+                        <h2>Download 2014<br>Prospectus</h2>
+                        <div class="button-light oarrow absolutebr">Download<span></span></div>
+                    </a>
                 </div>
                 <div class="home-feature nocontent hbg">
-                    <img src="assets/images/feature6.jpg" alt="TEFL Academy"/>
-                    <h2>Schools <br>Programme</h2>
-                    <a class="button-light oarrow absolutebr" href="#">More Info<span></span></a>
+                    <a href="#">
+                        <img src="assets/images/feature6.jpg" alt="TEFL Academy"/>
+                        <h2>Schools <br>Programme</h2>
+                        <div class="button-light oarrow absolutebr">More Info<span></span></div>
+                    </a>
                 </div>
             </section>
             

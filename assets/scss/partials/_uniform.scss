@@ -184,14 +184,14 @@ div.radio input {
 
 /* Uploader */
 div.uploader {
-  background-position: 0 -297px;
+
   height: 28px;
   width: 190px;
   cursor: pointer;
   position: relative;
   overflow: hidden; }
   div.uploader span.action {
-    background-position: right -409px;
+
     height: 28px;
     line-height: 28px;
     width: 82px;
@@ -201,6 +201,7 @@ div.uploader {
     overflow: hidden;
     cursor: pointer; }
   div.uploader span.filename {
+	  
     text-overflow: ellipsis;
     display: block;
     overflow: hidden;
@@ -224,7 +225,9 @@ div.uploader {
     float: right;
     cursor: default;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+	border:1px solid $brand-dark; 
+	}
   div.uploader.active span.action {
     background-position: right -465px; }
   div.uploader.hover, div.uploader.focus {

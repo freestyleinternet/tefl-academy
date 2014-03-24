@@ -12,7 +12,7 @@
                      data-cycle-slides="div.slide"
                      data-cycle-prev="#prev"
         			 data-cycle-next="#next">
-                    <div class="cycle-pager"></div>
+                    
                     <div class="slide">
                     	<img src="assets/images/testimonial1.jpg">
                     	<div class="t3-t4 text">
