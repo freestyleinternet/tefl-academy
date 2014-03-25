@@ -4,7 +4,7 @@
     	
       	<section class="m1 t1-t3 d1-d3">
         	
-            <div class="news-intro">
+            <div class="news-intro autoheight">
             	<h1>ALL THE LATEST NEWS</h1>
             	<p>As one of the fastest growing TEFL course providers in the UK we have lots of news to share with our students. Get all the latest news right here!</p>
             </div>

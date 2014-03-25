@@ -17,8 +17,8 @@
         	<div class="newsbox">
                 <img src="assets/images/news-feature-home.jpg">
                 <h1>Latest News</h1>
-                <h2>Our very own TEFL jobs board!</h2>
-                <p>Our students can now view...</p>
+                <h2><a href="jobs-board.php">Our very own TEFL jobs board!</a></h2>
+                <p><a href="jobs-board.php">Our students can now view...</a></p>
                 <article>
                     <a href="news-single.php">
                         <img src="assets/images/home-news-thumb.jpg">
@@ -30,16 +30,16 @@
                 </article>
             </div>
         </div>
-        <div class="m1 t4 d4">      		
+        <div class="m1 t4 d4">   
+         		
             <div class="tabs displaydesktop">
             	<div class="tab twittertab">
                     <input type="radio" id="tab-t" name="tab-group-1" checked>
                     <label for="tab-t">Twitter</label>
             		<div class="tab-content nopadding">
-                    	<h2>@TEFLAcademyUK</h2>
-						<div id="tweets">
-                        	<a class="twitter-timeline"  href="https://twitter.com/TEFLAcademyUK"  data-widget-id="447766344830701568" height="356" data-chrome="transparent">Tweets by @TEFLAcademyUK</a>
-    						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						<div class="scrollerbox-tweet">
+                        	<h2><a href="https://twitter.com/TEFLAcademyUK" target="_blank">@TEFLAcademyUK</a></h2>
+                        	<div id="twitter-feed"></div>
                         </div>
                     </div> 
             	</div>

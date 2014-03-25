@@ -11,20 +11,32 @@
 		min-height:800px;
 	}
 }
-.gm-style-iw{ 
-	overflow: hidden !important;
-}
+
 #map img{
 	position:absolute !important;
 	max-width:none !important;
 }
+.gm-style-iw  {
+ line-height: normal !important;
+ overflow:hidden !important;
+}
+object, embed, video {
+    max-width: 100%;
+}
+#map_canvas {
+
+        padding: 0px !important;
+      }
 #content {
 	width:400px;
+	height:194px;
+	overflow-x: hidden;
 	h1 {
 		font-size:em(16);
 		line-height:20px;
 		padding:em(5) em(10);
 		margin-bottom:em(12);
+		margin-top:em(6);
 		color:#fff;
 		background:$brand-orange;
 	}
@@ -35,12 +47,24 @@
 		li {
 			background:none;
 			&.borderbx {
-
+				width:100%;
 				color:$brand-orange;
 				font-weight:400;
 				margin-top:em(10);
-				background:url(#{$assetPath}/phone-icon.svg) no-repeat center left;
+				p {
+					float:left;
+					img.phone {
+						float:left !important;
+						display:block;
+					}
+					span {
+						position:relative;
+						top:-4px;
+						margin-left:20px;
+					}
+				}
 			}
+			
 			a {
 				color:$brand-orange;
 				margin-tbottom:em(10);

@@ -1,6 +1,7 @@
 /* GENERAL */
 * {
 	-webkit-border-radius: 0;
+	
 }
 body {
 	font-family: 'Lato', sans-serif;
@@ -733,7 +734,6 @@ h2.title {
 		display:inline-block;
 		min-height:138px;
 		padding-bottom:0;
-		
 		margin-bottom:em(26);
 		@include bp(desktop) {
 			min-height:157px;
@@ -763,6 +763,11 @@ h2.title {
 		font-weight:100;
 		&.left {
 			left:0;
+		}
+		&.left.half {
+			left:0;
+			right:auto;
+			width:65%;
 		}
 		&.bottom {
 			top:auto !important;
@@ -962,6 +967,9 @@ h2.title {
 		font-size:em(14);
 		line-height:18px;
 		padding:0 em(18);
+		a {
+			color:$body-copy;
+		}
 	}
 	
 }
@@ -1044,13 +1052,16 @@ h2.title {
 	}
 	h2 {
 		color:#fff;
-		font-size:em(15);
+		font-size:em(18);
 		text-align:left;
 		font-weight:400;
 		display:block;
-		margin:em(7) 0 0 0;
+		margin:em(15) 0 0 0;
 		padding-bottom:em(3);
 		border-bottom:1px solid #fff;
+		a {
+			color:#fff;
+		}
 	}
 	.twitter-timeline-container { width: 100% !important; }
 	#tweets {
@@ -1061,8 +1072,8 @@ h2.title {
 		padding-left:0;
 		padding-right:0;
 		h2 {
-			margin-left:em(14);
-			border-bottom:none;
+			margin-left:em(16);
+			margin-right:em(16);
 		}
 	}
 }
@@ -1608,7 +1619,152 @@ aside.typetwo {
     opacity: 1;  
 } 
 
+/*  Twitter API */
+.scrollerbox-tweet {
+	width:100%;
+	display:inline-block;
+	height:268px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	@include bp(tablet) {
+		height:268px;
+	}
+	@include bp(desktop) {
+		height:299px;
+	}
+}
+#loading-container {
+    padding:16px 0px 16px 0px;
+    text-align:center; 
+}
+  #twitter-feed {
+    width:100%;
+    margin:auto;
+    padding:8px 0 5px em(16);
+    color:$body-copy;
+    overflow:auto;
+}
+ 
+#twitter-feed h1 {
+    display:none;   
+}
+ 
+.twitter-article, #loading-container {
+    width:100%;
+    float:left;
+    padding:8px 0px 8px 0px;
+    position:relative;
+}
+.twitter-pic {
+	position:absolute;
+    float:left;
 
+}
+  
+.twitter-pic img {
+    float:left;
+    border-radius:none; 
+    border:none;
+     padding:4px;
+	 background:#fff; 
+}
+  
+/* -------- TEXT STYLING ------*/
+.twitter-text {
+    width:100%;
+    float:left;
+ 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.twitter-text p {
+	float:left;
+    margin:0px;
+    line-height:17px;
+	font-size:em(13);  
+}
+.twitter-text a,  h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.twitter-text a:hover,  h1 a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+  .tweet-time {
+    font-size:em(13);
+    color:#fff;
+	clear:both;
+    float:left;
+	width:100%;
+	margin-top:em(20);
+	
+}
+.tweet-time a, .tweet-time a:hover {
+    color:#fff;
+}
+  .tweetprofilelink a {
+	float:left;
+	width:64%;
+	color:#fff;
+	margin-left:25%;
+	@include bp(tablet) {
+		margin-left:34%;
+	}
+	@include bp(desktop) {
+		margin-left:25%;
+	}
+}
+.tweetprofilelink a:hover {
+    color:#fff;
+}
+  
+/* -------- FEED  ACTIONS ------*/
+#twitter-actions {
+    width:75px;
+    float:right;
+    margin-right:5px;  
+    margin-top:3px;
 
+}
+.intent {
+    width:25px;
+    height:16px;
+    float:left;
+}
+.intent a{
+    width:25px;
+    height:16px;
+    display:block;
+    background-image:url(#{$assetPath}/tweet-actions-white.png);
+    float:left;
+}
+.intent a:hover{
+   /* background-position:-25px 0px;*/
+}
+  
+#intent-retweet a{
+    background-position:0px -17px;
+}
+#intent-retweet a:hover{
+    /*background-position:-25px -17px;*/
+}
+#intent-fave a{
+    background-position:0px -36px;
+}
+#intent-fave a:hover{
+  /*  background-position:-25px -36px;*/
+}
+  
+/* -------- RETWEET INDICATOR ------*/
+#retweet-indicator {
+    width:14px;
+    height:10px;
+    background-image:url(#{$assetPath}/tweet-actions-white.png);
+    background-position:-5px -54px;
+    margin-top:3px;
+    float:left;
+}
 
 

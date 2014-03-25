@@ -90,7 +90,7 @@
 
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/main.min.js"></script>
-
+	<script type="text/javascript" src="assets/js/source/twitterfeed.js"></script>
 
     
     <!-- Datamaps Source -->
@@ -108,9 +108,9 @@
 					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
 						'<li>near 119 Eyre St,</li>' +
 						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx">01273 806 380</li>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li>' +
-						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
+						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
+						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
+						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
 					  '</ul>' +
 				  '</div>'+
 	  '</div>', 57.14356 , -2.09690],
@@ -121,9 +121,9 @@
 					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
 						'<li>near 119 Eyre St,</li>' +
 						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx">01273 806 380</li>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li>' +
-						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
+						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
+						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
+						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
 					  '</ul>' +
 				  '</div>'+
 	  '</div>', 52.63217 , 1.29845],
@@ -134,9 +134,9 @@
 					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
 						'<li>near 119 Eyre St,</li>' +
 						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx">01273 806 380</li>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li>' +
-						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
+						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
+						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
+						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
 					  '</ul>' +
 				  '</div>'+
 	  '</div>', 50.37143 , -4.13469],
@@ -147,9 +147,9 @@
 					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
 						'<li>near 119 Eyre St,</li>' +
 						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx">01273 806 380</li>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li>' +
-						'<li><a class="button-light oarrow rightalign" href="#">More Info</a></li>' +
+						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
+						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
+						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
 					  '</ul>' +
 				  '</div>'+
 	  '</div>', 51.47621 , -3.17673]
@@ -180,15 +180,15 @@
       center: new google.maps.LatLng(-37.92, 151.25),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       mapTypeControl: false,
-      streetViewControl: false,
-      panControl: false,
+     // streetViewControl: false,
+      //panControl: true,
       zoomControlOptions: {
-         position: google.maps.ControlPosition.LEFT_BOTTOM
+         //position: google.maps.ControlPosition.LEFT_TOP
       }
     });
 
     var infowindow = new google.maps.InfoWindow({
-      maxWidth: 180
+      maxWidth: 200
     });
 
     var marker;
@@ -201,7 +201,7 @@
       	marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: map,
-		closeBoxURL: "http://www.carltonhotelblanchardstown.com/files/images/a/calendar-popup-close.png",
+		closeBoxURL: "",
         icon : icons[iconCounter],
         shadow: shadow
       });
