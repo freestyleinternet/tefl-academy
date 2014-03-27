@@ -4,7 +4,7 @@
     	
       	<section class="m1 t1-t3 d1-d3">
         	
-            <div class="news-intro">
+            <div class="news-intro autoheight">
             	<h1>COURSE INFORMATION</h1>
             	<p>The TEFL Academy is the UK's leading TEFL course provider. Our courses are designed to effectively teach our students the fundamental skills to enable them to be successful at teaching English as a foreign language (TEFL).</p>
             </div>

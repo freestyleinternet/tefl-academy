@@ -4,13 +4,12 @@
     	
       	<section class="m1 t1-t3 d1-d3">
         	
-            <div class="news-intro location displaydesktop">
+            <div class="news-intro location displaydesktop autoheight">
             	<h1>COURSE LOCATIONS</h1>
             	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            
-			<div id="map" class="displaydesktop"></div>
-            
+			<!--div id="map" class="displaydesktop"></div>-->
+            <div class="gmap displaydesktop"></div>
         </section>
         
         <aside class="m1 t4 d4">

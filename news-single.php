@@ -4,7 +4,7 @@
     	
       	<section class="m1 t1-t3 d1-d3">
         	
-            <div class="news-intro single">
+            <div class="news-intro single autoheight">
             	<h1>THE TEFL ACADEMY LAUNCHES IN HULL!</h1>
             	<p>posted <span>18 Dec 2013</span></p>
             </div>

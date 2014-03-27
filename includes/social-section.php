@@ -46,8 +46,10 @@
             	<div class="tab">
             		<input type="radio" id="tab-f" name="tab-group-1">
             		<label for="tab-f">Facebook</label>
-                    <div class="tab-content">
-                        <p>Two</p>
+                    <div class="tab-content nopadding">
+                        <div class="video-container">
+                        	<div class="fb-like-box" data-href="https://www.facebook.com/pages/The-TEFL-Academy/234302256611182?fref=ts" data-width="220" data-height="299" data-colorscheme="dark" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
+                        </div>
                     </div> 
             	</div> 
         	</div>

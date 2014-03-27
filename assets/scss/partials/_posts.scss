@@ -222,7 +222,11 @@ blockquote.large {
 		padding-left:em(84);
 		background: url(#{$assetPath}/teach.svg) no-repeat 20px 21px;
 	}
+	&.autoheight {
+		min-height:inherit;
+	}
 }
+
 .news-intro.sacentre {
 	h1 {
 		position:relative;

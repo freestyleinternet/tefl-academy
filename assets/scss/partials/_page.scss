@@ -768,6 +768,7 @@ h2.title {
 			left:0;
 			right:auto;
 			width:65%;
+			text-align:left;
 		}
 		&.bottom {
 			top:auto !important;
@@ -1076,9 +1077,33 @@ h2.title {
 			margin-right:em(16);
 		}
 	}
+	.video-container {
+		position: relative;
+		width:100%;
+		height:299px;
+		overflow: hidden;
+		iframe {
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			
+		}
+		h5 .actorDescription {
+			color:#f00;
+		}
+	}
+
+}
+#facebook span.userContent {
+color:#f00 !important; 
+width:40px; 
 }
 
-
+iframe {
+				width:220px !important;
+			}
 [type=radio]:checked ~ label {
 	color:#fff;
 	font-size:em(22);

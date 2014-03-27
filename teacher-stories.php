@@ -4,7 +4,7 @@
     	
       	<section class="m1 t1-t3 d1-d3 spacerbottom">
         	
-            <div class="news-intro peopleicon">
+            <div class="news-intro peopleicon autoheight">
             	<h1>Meet our students</h1>
             	<p>When our students graduate from our TEFL course they head off to almost every country in the world. We asked some of these teachers to send us their stories to inspire our new students.</p>
             </div>

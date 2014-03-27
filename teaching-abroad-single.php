@@ -4,7 +4,7 @@
     	
       	<section class="m1 t1-t3 d1-d3">
         	
-            <div class="news-intro location displaydesktop">
+            <div class="news-intro location autoheight displaydesktop">
             	<h1>TEACHING IN ASIA</h1>
             	<p>The Asia is often the first choice for new TEFL teachers for good reason. Asia represents one of the largest TEFL industries in the world and the diverse culture, food and people are enough to attract any budding explorer. </p>
             </div>

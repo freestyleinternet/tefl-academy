@@ -94,146 +94,78 @@
 
     
     <!-- Datamaps Source -->
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/gmap3/5.1.1/gmap3.min.js"></script>
 	<script src="http://datamaps.github.com/scripts/datamaps-all.js"></script>
     <script src="assets/js/source/maps.js"></script>
     
     <script type="text/javascript">
-    // Define your locations: HTML content for the info window, latitude, longitude
-    var locations = [
-      [
-	  '<div id="content">'+
-			  	  '<h1>TEFL Aberdeen</h1>'+
-				  '<div id="bodyContent">'+
-					  '<ul>'+
-					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
-						'<li>near 119 Eyre St,</li>' +
-						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
-						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
-					  '</ul>' +
-				  '</div>'+
-	  '</div>', 57.14356 , -2.09690],
-      ['<div id="content">'+
-			  	  '<h1>TEFL Norwich</h1>'+
-				  '<div id="bodyContent">'+
-					  '<ul>'+
-					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
-						'<li>near 119 Eyre St,</li>' +
-						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
-						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
-					  '</ul>' +
-				  '</div>'+
-	  '</div>', 52.63217 , 1.29845],
-	  ['<div id="content">'+
-			  	  '<h1>TEFL Plymouth</h1>'+
-				  '<div id="bodyContent">'+
-					  '<ul>'+
-					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
-						'<li>near 119 Eyre St,</li>' +
-						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
-						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
-					  '</ul>' +
-				  '</div>'+
-	  '</div>', 50.37143 , -4.13469],
-      ['<div id="content">'+
-			  	  '<h1>TEFL Cardiff</h1>'+
-				  '<div id="bodyContent">'+
-					  '<ul>'+
-					  	'<li>Jurys Inn Sheffield Hotel,</li>' +
-						'<li>near 119 Eyre St,</li>' +
-						'<li>City Centre, Sheffield, UK</li>' +
-						'<li class="borderbx"><p><img class="phone" src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>01273 806 380</span></p></li><br>' +
-						'<li><a href="mailtoinfo@teflacademy.co.uk">info@teflacademy.co.uk</a></li><br>' +
-						'<li><a href="#"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></li>' +
-					  '</ul>' +
-				  '</div>'+
-	  '</div>', 51.47621 , -3.17673]
-    ];
-    
-    // Setup the different icons and shadows
-    var iconURLPrefix = 'assets/images/';
-    
-    var icons = [
-      iconURLPrefix + 'location-icon.svg',
-      iconURLPrefix + 'location-icon.svg',
-      iconURLPrefix + 'location-icon.svg',
-      iconURLPrefix + 'location-icon.svg',
-      iconURLPrefix + 'location-icon.svg',
-      iconURLPrefix + 'location-icon.svg',      
-      iconURLPrefix + 'location-icon.svg'
-    ]
-    var icons_length = icons.length;
-    
-    
-   var shadow = {
-      anchor: new google.maps.Point(15,33),
-      url: iconURLPrefix + 'location-icon.svg'
-    };
+    	$(window).ready(function() {
+			  // JSON
+			  var data = JSON.parse('[{"title":"TEFL Aberdeen","address":"Jurys Inn Aberdeen Hotel, Union Square, Guild Street, Aberdeen, AB11 5RG","phone":"01273 806 380","emailad":"info@teflacademy.co.uk","pagelink":"http://theteflacademy.freestyleinternet.co.uk","status":"live"},{"title":"TEFL Norwich","address":"Norwich","phone":"01273 806 380","emailad":"info@teflacademy.co.uk","pagelink":"http://theteflacademy.freestyleinternet.co.uk","status":"live"},{"title":"TEFL Plymouth","address":"Plymouth","phone":"01273 806 380","emailad":"info@teflacademy.co.uk","pagelink":"http://theteflacademy.freestyleinternet.co.uk","status":"live"},{"title":"TEFL Cardiff","address":"Cardiff","phone":"01273 806 380","emailad":"info@teflacademy.co.uk","pagelink":"http://theteflacademy.freestyleinternet.co.uk","status":"live"}]');
+			  var $map = $('.gmap');
+			 
+			  // Gmap Defaults
+			  $map.gmap3({
+				map:{
+					options:{
+						center:[52.63217,1.29845],
+						zoom: 6
+					}
+				}
+			  });
+			 
+			  // Json Loop
+			  $.each(data, function(key, val) {
+				  $map.gmap3({
+					  marker:{
+						  options: { icon:"assets/images/location-icon.svg" },
+						  values:[{
+							  address:val.address,
+							  events: {
+								  // NEW SCOPE
+								  click: function(marker, event, context) {
+									  // ADD THIS
+									  $map.gmap3({
+										map:{
+										  options:{
+											center:event.latLng,
+										  }
+										}
+									  });
+									  gmap_clear_markers();
+									  $(this).gmap3({
+										  overlay:{
+											  address:val.address,
+											  //closeBoxURL: "assets/images/cross-infowindow.png",
+											  options:{
+												  content:'<div class="infobox"><h1>'+val.title+' </h1><div id="bodyContent"><p class="address">'+val.address+'</p><p class="phone" ><img src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>'+val.phone+'</span></p><p><a href="mailto:'+val.emailad+'"><img src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> '+val.emailad+'</a></p><p><a href="'+val.pagelink+'"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></p><div class="downarrow"></div></div></div>',
+												   
+												   offset:{
+														  y:-290,
+														  x:-100
+													  }
+											  }
+										  }
+									  });
+								  }
+							  }
+						  }]
+					  }
+				  });
+			  });
+			});
+			 
+			// Function Clear Markers
+			function gmap_clear_markers() {
+				$('.infobox').each(function() {
+					$(this).remove();
+				});
+				$('.close').click(function() {
+					$('#map_canvas').gmap('get', 'iw').close();
+				});
+			}
 
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 10,
-      center: new google.maps.LatLng(-37.92, 151.25),
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      mapTypeControl: false,
-     // streetViewControl: false,
-      //panControl: true,
-      zoomControlOptions: {
-         //position: google.maps.ControlPosition.LEFT_TOP
-      }
-    });
-
-    var infowindow = new google.maps.InfoWindow({
-      maxWidth: 200
-    });
-
-    var marker;
-    var markers = new Array();
-    
-    var iconCounter = 0;
-    
-    // Add the markers and infowindows to the map
-    for (var i = 0; i < locations.length; i++) {  
-      	marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map,
-		closeBoxURL: "",
-        icon : icons[iconCounter],
-        shadow: shadow
-      });
-
-      markers.push(marker);
-
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-      
-      iconCounter++;
-      // We only have a limited number of possible icon colors, so we may have to restart the counter
-      if(iconCounter >= icons_length){
-      	iconCounter = 0;
-      }
-    }
-
-    function AutoCenter() {
-      //  Create a new viewpoint bound
-      var bounds = new google.maps.LatLngBounds();
-      //  Go through each...
-      $.each(markers, function (index, marker) {
-        bounds.extend(marker.position);
-      });
-      //  Fit these bounds to the map
-      map.fitBounds(bounds);
-    }
-    AutoCenter();
-  </script>
+	</script>
 
 
     <script>
