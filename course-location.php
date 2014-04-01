@@ -1,5 +1,55 @@
 <?php include 'includes/header.php'; ?>
+    <?php 
     
+    	$locationFeed = array(
+						array( 
+						   'id' => 1,
+						   'title' => 'TEFL Aberdeen', 
+						   'address' => 'Jurys Inn Aberdeen Hotel, Union Square, Guild Street, Aberdeen, AB11 5RG',
+						   'phone' => '01273 806 380', 
+						   'emailad' => 'info@teflacademy.co.uk', 
+						   'pagelink' => 'http://theteflacademy.freestyleinternet.co.uk', 
+						   'status' => 'live',
+						   'city' => 'Aberdeen'
+						   ),
+				   		array( 
+						   'id' => 2,
+						   'title' => 'TEFL Norwich', 
+						   'address' => 'Norwich Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+						   'phone' => '01273 806 380', 
+						   'emailad' => 'info@teflacademy.co.uk', 
+						   'pagelink' => 'http://theteflacademy.freestyleinternet.co.uk', 
+						   'status' => 'live',
+						   'city' => 'Norwich',
+						   ),
+						   array( 
+						   'id' => 3,
+						   'title' => 'TEFL Plymouth', 
+						   'address' => 'Plymouth Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+						   'phone' => '01273 806 380', 
+						   'emailad' => 'info@teflacademy.co.uk', 
+						   'pagelink' => 'http://theteflacademy.freestyleinternet.co.uk', 
+						   'status' => 'live',
+						   'city' => 'Plymouth'
+						   ),
+						   array( 
+						   'id' => 4,
+						   'title' => 'TEFL Cardiff', 
+						   'address' => 'Cardiff Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+						   'phone' => '01273 806 380', 
+						   'emailad' => 'info@teflacademy.co.uk', 
+						   'pagelink' => 'http://theteflacademy.freestyleinternet.co.uk', 
+						   'status' => 'live',
+						   'city' => 'Cardiff'
+						   ),
+						   
+		);
+    	global $mapJson; 
+		
+		$mapJson = json_encode($locationFeed);
+
+    
+    ?>
     <div class="wrapper">
     	
       	<section class="m1 t1-t3 d1-d3">
@@ -15,23 +65,10 @@
         <aside class="m1 t4 d4">
             <h1 class="green-header large thinnermobile">Find your course</h1>
             <ul class="city-list">
-            	<li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a class="active" href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
-                <li><a href="#">City Name</a></li>
+            	<?php foreach($locationFeed as $feed): ?> 
+            		<li><a class='item-<?php echo $feed['id']; ?>' data-id='<?php echo $feed['id']?>' href="#"><?php echo $feed['city'] ?> </a></li>
+            	<?php endforeach ?> 
+
             </ul>
             
             <a class="button-light mobbutton displaymobile" href="call-back-request.php">Call back request</a>

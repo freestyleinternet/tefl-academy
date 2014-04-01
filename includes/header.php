@@ -112,11 +112,12 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	
     <link href="https://get.gridsetapp.com/27276/" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 </head>
 

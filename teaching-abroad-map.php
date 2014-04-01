@@ -1,5 +1,41 @@
 <?php include 'includes/header.php'; ?>
-    
+    <?php 
+    	$mapArray = array(
+			 'MR' => array(
+			    'name' =>  'TEFL Mauritana',
+			    'country' => 'Mauritana',
+				'flagSrc'  => '/assets/images/flag-map.svg',
+			    'significance' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar eget mi id fermentum.  ',
+			    'moreLink' => '#', 
+			  ),
+			  'AU' => array(
+			    'name' =>  'TEFL Austrailia',
+			    'country' => 'Austrailia',
+				'flagSrc'  => '/assets/images/flag-map.svg',
+			    'significance' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar eget mi id fermentum.  ',
+			    'moreLink' => '#',
+			  ),
+			  'TH' => array(
+			    'name' =>  'TEFL Thailand',
+			    'country' => 'Thailand',
+				'flagSrc'  => '/assets/images/flag-map.svg',
+			    'significance' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar eget mi id fermentum.  ',
+			    'moreLink' => '#',
+			  ),
+			  'EG' => array(
+			    'name' =>  'TEFL Egypt',
+			    'country' => 'Egypt',
+				'flagSrc'  => '/assets/images/flag-map.svg',
+			    'significance' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar eget mi id fermentum.  ',
+			    'moreLink' => '#',
+			  ),
+
+		);
+		
+		global $mapTeaching; 
+		
+		$mapTeaching = json_encode($mapArray);
+    ?> 
     <div class="wrapper">
     	
       	<section class="m1 t-all d-all">
@@ -101,3 +137,4 @@
 
     
 <?php include 'includes/footer.php'; ?>
+

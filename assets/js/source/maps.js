@@ -1,4 +1,4 @@
-var bombs = new Backbone.Collection([
+/*var bombs = new Backbone.Collection([
   {
     name: 'TEFL Africa',
     radius: 0,
@@ -57,8 +57,14 @@ var bombs = new Backbone.Collection([
 				'<a class="button-light oarrow alignright" href="#">More Info<span></span></a>',
                 '</div>'].join(''))
         },
+        done: function(datamap) {
+            datamap.svg.selectAll('#states').on('click', function(geography) {
+                alert(geography.properties.name);
+            });
+        },
         geography_config: {
-            popupOnHover: false,
+        	 popupOnHover: false,
+            popupOnClick: true,
             highlightOnHover: false
         },
         fills: {
@@ -83,3 +89,5 @@ var bombs = new Backbone.Collection([
             'USA': {fillKey: 'USA'}
         }
     });
+    
+*/
