@@ -189,8 +189,52 @@
                 <form action="#" method="post">
                     <input type="text" placeholder="Name" required>
                     <input  type="email" placeholder="Email" required>
-                    <input type="submit" value="Go">
+                    <!--<input type="submit" value="Go">-->
+                    <a class="button-light orange" href="#openModal4"  type="button" value="Zoom In Modal Window"  data-type="zoomin">Go</a>
                 </form>
+            </div>
+            
+            <div id="openModal4" class="modalDialog">
+                <div class="window-container form-modal small-modal zoomin">
+                    <a href="#close" title="Close" class="close"></a>
+                    <h1>Select Countries</h1>
+                    <p>Vestibulum sed mi commodo neque imperdiet rutrum. Nulla porttitor dapibus augue quis bibendum.</p>
+                    <form class="modalform" action="#" method="post">
+                        <div>
+                            <label>Send me alerts for</label>
+                            <div class="multiplecheck">
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+                                 Country name</label>
+
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+                                 Country name</label>
+                              
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+                                 Country name</label>
+                              
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_3">
+                                 Country name</label>
+                                 
+                                 <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_4">
+                                 Country name</label>
+
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_5">
+                                 Country name</label>
+                              
+                               <label>
+                                 <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_6">
+                                 Country name</label>
+                             </div>
+                        </div>
+                        <input class="buttontype orange" type="submit" value="Go">
+                    </form>
+                </div>
             </div>
             
             <a class="button-light fullwidth orange largejobs" href="#">Most Recent Jobs</a>

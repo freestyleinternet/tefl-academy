@@ -22,9 +22,16 @@
 	case $siteurl."about.php":
 		 $pageactive          = "class='page'";
 		 break;
+	case $siteurl."accreditation.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."contact-us.php":
+		 $pageactive          = "class='page'";
+		 break;
 	case $siteurl."teaching-abroad.php":
 		 $pageactive          = "class='teachingabroad'";
 		 break;
+	
 	case $siteurl."student-advice-centre.php":
 		 $pageactive          = "class='page'";
 		 break;
@@ -53,6 +60,18 @@
 		 $pageactive          = "class='location'";
 		 break;
 	case $siteurl."course-landing-london.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."teaching-abroad-asia.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."teaching-abroad-latin-america.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."teaching-abroad-europe.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."teaching-abroad-middle-east.php":
 		 $pageactive          = "class='page'";
 		 break;
 	case $siteurl."teaching-abroad-map.php":
@@ -101,6 +120,8 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Doesn't always work! -->
+<meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -278,7 +299,14 @@
             <div class="mobile">
             	<ul class="holder">
                     <li><a href="course-location.php">Course Locations</a></li>
-                    <li><a href="teaching-abroad-map.php">Teaching Abroad</a></li>
+                    <li><a href="teaching-abroad-map.php">Teaching Abroad</a>
+                    	<ul>
+                            <li><a href="teaching-abroad-asia.php">Asia</a></li>
+                            <li><a href="teaching-abroad-latin-america.php">Latin America</a></li>
+                            <li><a href="teaching-abroad-europe.php">Europe</a></li>
+                            <li><a href="teaching-abroad-middle-east.php">Middle East</a></li>
+                        </ul>
+                    </li>
                     <li><a href="jobs-board.php">Jobs</a></li>
                     <li><a href="testimonials.php">Testimonials</a></li>
             	</ul>
@@ -310,7 +338,14 @@
                         <li><a href="/">Link</a></li>
                     </ul>
                 </li>
-                <li><a href="teaching-abroad.php">Teaching Abroad</a></li>
+                <li><a href="teaching-abroad.php">Teaching Abroad</a>
+                	<ul>
+                        <li><a href="teaching-abroad-asia.php">Asia</a></li>
+                        <li><a href="teaching-abroad-latin-america.php">Latin America</a></li>
+                        <li><a href="teaching-abroad-europe.php">Europe</a></li>
+                        <li><a href="teaching-abroad-middle-east.php">Middle East</a></li>
+                    </ul>	
+                </li>
                 <li><a href="jobs-board.php">Jobs</a></li>
                 <li><a href="#openModal2" type="button" value="Zoom In Modal Window"  data-type="zoomin">Get in touch</a></li>
                 <li class="last"><a class="active" href="/">Enrol</a></li>

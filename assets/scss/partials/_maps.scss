@@ -17,8 +17,8 @@
 	max-width:none !important;
 }
 .gm-style-iw  {
- line-height: normal !important;
- overflow:hidden !important;
+	line-height: normal !important;
+	overflow:hidden !important;
 }
 object, embed, video {
     max-width: 100%;
@@ -190,12 +190,16 @@ object, embed, video {
 }
 
 .map-info-box {
+	position:relative;
 	width:400px;
 	display:inline-block;
 	background:#fff;
+	.close {
+		top:15px;
+	}
 	h1{
 		color:#fff;
-		padding:em(5) em(15);
+		padding:em(6) em(15) em(3) em(15);
 		display:block;
 		font-size:em(21);
 		font-weight:400;
@@ -223,5 +227,35 @@ object, embed, video {
 	.button-light {
 		margin-right:em(15);
 		margin-bottom:em(20);
+		line-height:24px;
+	}
+	.downarrow {
+		position:absolute;
+		bottom:-24px;
+		left:50%;
+		width:124px;
+		height:24px;
+		margin-left:-12px;
+		background:url(#{$assetPath}/infowindow-downarrow.svg) no-repeat top left;
 	}
 }
+
+.jvectormap-zoomin {
+	display:block !important;
+	width:20px !important;
+	height:20px !important;
+	text-align:center !important;
+	padding-top:5px !important;
+	background:$brand-orange !important;
+	margin-bottom:20px !important;
+}
+.jvectormap-zoomout {
+	width:20px !important;
+	height:20px !important;
+	text-align:center !important;
+	padding-top:4px !important;
+	background:$brand-orange !important;
+	margin-top:10px !important;
+}
+
+

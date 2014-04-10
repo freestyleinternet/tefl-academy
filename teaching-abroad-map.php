@@ -39,9 +39,9 @@
     <div class="wrapper">
     	
       	<section class="m1 t-all d-all">
-			<h1 class="green-header large">Teaching Abroad</h1>
+			<h1 class="green-header large displaymobile">Teaching Abroad</h1>
             <div class="world-map displaydesktop">
-				<h1>Teaching Abroad <span>Hover on country to find out more information on teaching overseas</span></h1>
+				<h1>Teaching Abroad <span>Click on country to find out more information on teaching overseas</span></h1>
                 <div id="container1"></div>
             </div>
             

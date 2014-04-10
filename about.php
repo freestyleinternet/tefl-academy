@@ -4,7 +4,7 @@
     	
       	<section class="m1 t-all d1-d3">
         	
-            <div class="news-intro world">
+            <div class="news-intro autoheight world">
             	<h1>ABOUT US</h1>
             	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet purus ac quam tincidunt, vel hendrerit nunc fermentum. Phasellus iaculis ullamcorper leo at congue. Phasellus iaculis ullamcorper leo at congue.</p>
             </div>

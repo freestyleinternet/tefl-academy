@@ -2,7 +2,7 @@
 
     <div class="wrapper">
         <div class="m1 s1-s2 tb1 db1 banner displaydesktop">
-        	<a class="vertical orange" href="#"></a>
+        
         	<h1>Live your teaching dreams...</h1>
             <div class="info">
             	<h2>Welcome to the TEFL Academy</h2>

@@ -117,8 +117,8 @@
 			  $map.gmap3({
 				map:{
 					options:{
-						center:[52.63217,1.29845],
-						zoom: 6
+						center:[54.38112899999999,-3.47008500000004],
+						zoom:6
 					}
 				}
 			  });
@@ -248,13 +248,13 @@
 		series: {
 	    regions: [{
 	      values: countries,
-	      scale: ['#b2d1ff', '#FFCC4D'],
+	      scale: ['#b2d1ff', '#81af92'],
 	      normalizeFunction: 'polynomial'
 	    }]
 	  },
 		regionStyle: {
 			initial: {
-		    fill: '#81af92',
+		    fill: '#FFCC4D',
 		    "fill-opacity": 1,
 		    stroke: '#81af92',
 		    "stroke-width": 2,
@@ -272,7 +272,7 @@
 	                '<img src="'+data[code].flagSrc+'" alt="'+data[code].name+'"/>',
 					'<p>'+data[code].significance+'</p>',
 					'<a class="button-light oarrow alignright" href="'+data[code].moreLink+'">More Info<span></span></a>',
-	                '</div>'].join(''));
+	                '<div class="downarrow"></div></div>'].join(''));
 	                click = false; 
 	                label.show();
 	                
@@ -296,7 +296,7 @@
 	                '<img src="'+data[code].flagSrc+'" alt="'+data[code].name+'"/>',
 					'<p>'+data[code].significance+'</p>',
 					'<a class="button-light oarrow alignright" href="'+data[code].moreLink+'">More Info<span></span></a>',
-	                '</div>'].join(''))
+	                '<div class="downarrow"></div></div>'].join(''))
 	            jQuery('.map-info-box').css('position', 'absolute'); 
   			
   			

@@ -105,11 +105,13 @@ table {
 	width: 100%; 
 	border-collapse: collapse;
 	margin-bottom:em(21); 
+	font-family: 'latolight';
 }
 thead th {
 	text-align:center;
 	font-size:em(13);
 	font-weight:400;
+	
 	span {
 		clear:left;
 		float:left;

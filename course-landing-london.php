@@ -40,7 +40,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                         <tr>
                                             <td>12/01 - 15/01</td>
@@ -48,7 +48,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                         <tr>
                                             <td>12/01 - 15/01</td>
@@ -56,7 +56,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                         <tr>
                                             <td>12/01 - 15/01</td>
@@ -64,7 +64,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                         <tr>
                                             <td>12/01 - 15/01</td>
@@ -72,7 +72,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -80,7 +80,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -88,7 +88,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -96,7 +96,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -104,7 +104,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -112,7 +112,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -120,7 +120,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                         <tr>
                                             <td>12/01 - 15/01</td>
@@ -128,7 +128,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -136,7 +136,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                         <tr>
                                             <td>12/01 - 15/01</td>
@@ -144,7 +144,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                          <tr>
                                             <td>12/01 - 15/01</td>
@@ -152,7 +152,7 @@
                                             <td>4 places Left</td>
                                             <td>&pound;175</td>
                                             <td>120 Hours</td>
-                                            <td><a class="button-light oarrow orange" href="#">ENROLE NOW <span></span></a></td>
+                                            <td><a class="button-light oarrow orange" href="#">ENROL NOW <span></span></a></td>
                                         </tr>
                                     </tbody>
                                 </table>

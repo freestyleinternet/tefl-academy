@@ -16,7 +16,8 @@
 }
 body {
 	/*font-family: 'Lato', sans-serif;*/
-	 font-family: 'latolight';
+	/* font-family: 'latolight';*/
+	 font-family: Helvetica, Arial, Sans-Serif;
 	color:$body-copy;
 	font-size:100%;
 	font-weight:100;
@@ -74,6 +75,7 @@ nav, ul {
 h1, h2, h3, h4 {
 	margin:0;
 	font-weight:400;
+	font-family: 'latolight';
 }
 p {
 	margin:0;
@@ -245,6 +247,7 @@ section.banner {
 	line-height:34px;
 	padding-left:em(45);
 	text-align:left;
+	font-family: 'latolight';
 	background:$brand-light url(#{$assetPath}/people-icon.svg) no-repeat 16px center;
 	@include bp(tablet) {
 		height:30px;
@@ -307,10 +310,17 @@ section.banner {
 		font-size:em(13);
 		min-height:40px;
 		line-height:34px;
-		
 		span {
 			width:40px;
 			height:40px;
+		}
+	}
+	&.tall.indent.booking {
+		padding-right:36px;
+		span {
+			width:20px;
+			height:40px;
+			background:$brand-orange url(#{$assetPath}/arrow-right-small.svg) no-repeat 2% center;
 		}
 	}
 }
@@ -570,6 +580,7 @@ header .contact {
 	width:100%;
 	display:inline-block;
 	margin-bottom:em(20);
+	font-family: 'latolight';
 	@include bp(tablet) {
 		margin-top:em(20);
 		margin-bottom:0;
@@ -727,10 +738,13 @@ h2.title {
 	margin:0 auto 0 6.5%;
 	@include bp(tablet) {
 		width:100%;
-		min-height:296px;
+		min-height:295px;
 		background:$brand-lighter;
-		padding-bottom:em(40);
+		padding-bottom:em(30);
 		margin-left:0;
+	}
+	@include bp(desktop) {
+		min-height:340px;
 	}
 	p {
 		color:$body-copy;
@@ -773,6 +787,7 @@ h2.title {
 		line-height:26px;
 		text-align:right;
 		font-weight:100;
+		
 		&.left {
 			left:0;
 		}
@@ -786,7 +801,7 @@ h2.title {
 			top:auto !important;
 			bottom:0;
 			text-align:left;
-			width:100%;
+			width:100% !important;
 		}
 		@include bp(desktop) {
 			&.half {
@@ -803,6 +818,7 @@ h2.title {
 		line-height:18px;
 		text-align:right;
 		font-weight:100;
+		font-family: 'latolight';
 	}
 }
 
@@ -834,7 +850,7 @@ h2.title {
 
 .caption {
 	position:relative;
-	margin-bottom:em(24);
+	margin-bottom:em(14);
 	h1 {
 		position:absolute;
 		left:0;
@@ -938,6 +954,7 @@ h2.title {
 		float:left;
 		width:75%;
 	}
+	.button-light,
 	input[type="submit"] {
 		float:right;
 		width:20%;
@@ -1042,6 +1059,8 @@ h2.title {
 		line-height:30px;
 		padding:em(6) 0;
 		background:$brand-lighter;
+		font-family: 'latolight';
+		cursor:pointer;
 	}
 	&.twittertab label {
 		text-align:left;
@@ -1305,6 +1324,7 @@ footer {
 	ul li {
 		display:block;
 		margin-bottom:em(13);
+		font-family: 'latolight';
 		a {
 			font-size:em(16);
 			line-height:em(20);
@@ -1449,6 +1469,48 @@ aside.typetwo {
 	}
 }
 
+/*  Contact page */
+.bodycopy .col-split-1 {
+	position:relative;
+	float:left;
+	width:100%;
+	@include bp(tablet) {
+		width:42.01680672268908%; /*  300 / 714*/
+		margin-right:3.64145658263305%; /*  26 / 714 */
+	}
+	h2 {
+		font-size:em(16);
+		text-transform:uppercase;
+	}
+}
+.bodycopy .col-split-2 {
+	position:relative;
+	float:left;
+	width:100%;
+	padding:em(25) em(16) em(16) em(16);
+	background:$brand-dark;
+	@include bp(tablet) {
+		width:54.34173669467787%; /* 388 / 714 */
+		margin-top:em(5);
+	}
+	h2 {
+		color:#fff;
+		font-size:em(28);
+		margin-bottom:em(14);
+	}
+}
+
+.col-split-2 form {
+	input, label {
+		width:100%;
+		height:auto;
+		font-size:em(16);
+	}
+	label {
+		color:#fff;
+	}
+}
+
 /*  Modal windows */	
 .modalDialog {
 	position: fixed;
@@ -1567,6 +1629,9 @@ aside.typetwo {
 	padding: 56px 20px 60px 20px;
 	color:#fff;
 	background:#fff;
+	&.small-modal {
+		min-height:180px; 
+	}
 	h1, label {
 		color:$brand-dark;
 	}

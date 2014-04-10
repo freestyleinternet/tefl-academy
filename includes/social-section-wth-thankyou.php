@@ -12,10 +12,10 @@
         	<div class="newsbox">
                 <img src="assets/images/news-feature-home.jpg">
                 <h1>Latest News</h1>
-                <h2>Our very own TEFL jobs board!</h2>
-                <p>Our students can now view...</p>
+                <h2><a href="jobs-board.php">Our very own TEFL jobs board!</a></h2>
+                <p><a href="jobs-board.php">Our students can now view...</a></p>
                 <article>
-                    <a href="news.php">
+                    <a href="news-single.php">
                         <img src="assets/images/home-news-thumb.jpg">
                         <div class="txt">
                             <h1>TEFL job opportunities in Asia</h1>

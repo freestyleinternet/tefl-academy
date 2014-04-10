@@ -25,7 +25,7 @@
                     <li>Help with finding TEFL jobs abroad</li>
                     <li>All for just &pound;175! (Was &pound;349) *Offer ends 10/02/2014</li>
                 </ul>
-                <a class="button-light oarrow orange tall indent" href="#">ENROL NOW<span></span></a>
+                <a class="button-light oarrow orange tall indent booking" href="#">ENROL NOW<span></span></a>
             </div>
             <div class="bodycopy-aside displaydesktop">
             	<img src="assets/images/meet-our-students.jpg">
@@ -53,7 +53,7 @@
             </div>
             <div class="bodycopy-aside displaydesktop">
                 <blockquote class="large">THE TEFL ACADEMY IS FULLY ACCREDITED BY THE WORLD TEFL ACCREDITING COMMISION<span></span></blockquote>
-                <a class="button-light oarrow tall orange indent" href="#">ENROL NOW<span></span></a>
+                <a class="button-light oarrow tall orange indent booking" href="#">ENROL NOW<span></span></a>
             </div>
             <div class="bodycopy fullwidth coursebox displaydesktop">
             	<p>The aim of the 20 Hour Weekend Classroom Course is to take you through all the basics of TEFL. You will get the opportunity to learn through group work and gain peer to peer teaching experience. The classroom course will build your confidence to a level where you would feel comfortable standing up in front of your first class. </p>
