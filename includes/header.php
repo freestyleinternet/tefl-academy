@@ -121,7 +121,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Doesn't always work! -->
-<meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -134,11 +134,10 @@
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 	
-    <link href="https://get.gridsetapp.com/27276/" rel="stylesheet" />
+    <link href="assets/css/gridset.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 </head>
 
@@ -241,7 +240,7 @@
                 </form>
                 <div class="contact">
                     <p><img src="assets/images/phone-icon-orange.svg" alt="TEFL Academy Phone Number"/> Call us today <span>01273 806 380</span></p>
-                    <a class="button-light floatright" href="#openModal2" type="button" value="Zoom In Modal Window"  data-type="zoomin">Call back request</a>
+                    <a class="button-light floatright modalbutton" href="#openModal2" type="button" value="Zoom In Modal Window"  data-type="zoomin">Call back request</a>
                 </div>
 				<div id="openModal2" class="modalDialog">
                     <div class="window-container form-modal zoomin">
@@ -312,7 +311,7 @@
             	</ul>
             </div>
         </div>
-        
+
         <nav class="m1 t1-t4 d1-d4 displaydesktop">
             <ul>
                 <li><a class="home" href="/"><img src="assets/images/home-icon.svg" alt="TEFL Academy"/></a></li>

@@ -84,6 +84,8 @@
             <a class="footerbtn" href="#">CHAT WITH US <span></span></a>
         </div>
     </div>
+    
+    
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>

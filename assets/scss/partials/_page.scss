@@ -1341,16 +1341,19 @@ footer {
 	clear:right;
 	float:right;
 	width:175px; /*  170 / 480 */
+	height:30px;
 	color:#fff;
 	font-size:em(16);
+	line-height:35px;
 	font-weight:400;
-	line-height:30px;
 	padding-top:0;
 	padding-bottom:0;
 	padding-left:16px;
 	box-sizing: border-box;
 	margin-top:em(70);
 	display:block;
+	font-family: 'latolight';
+	font-weight:400;
 	background:$brand-orange;
 	@include bp(tablet) {
 		position:fixed;
@@ -1511,7 +1514,11 @@ aside.typetwo {
 	}
 }
 
-/*  Modal windows */	
+/*  Modal windows */
+.modalbutton {
+	position:relative;
+	z-index:2000;
+}
 .modalDialog {
 	position: fixed;
 	top: 0;
@@ -1519,7 +1526,7 @@ aside.typetwo {
 	bottom: 0;
 	left: 0;
 	background: rgba(0,0,0,0.8);
-	z-index: 99999;
+	/*z-index: 2100;*/
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
@@ -1528,7 +1535,7 @@ aside.typetwo {
 }
 .modalDialog:target {
 	opacity:1;
-	pointer-events: auto;
+	pointer-events: auto;z-index: 2100;
 }
 .modalDialog > div {
 	position: relative;

@@ -21,13 +21,20 @@
 		return false;
 	});
 	
-	
+	var zIndexNumber = 1000;
+       // Put your target element(s) in the selector below!
+       $(".button").each(function() {
+               $(this).css('zIndex', zIndexNumber);
+               zIndexNumber -= 10;
+       });
 	// Modal contact window
 	$('.button').click(function() {  
+		
 		type = $(this).attr('data-type');  
 		$('.overlay-container').fadeIn(function() {    
 			window.setTimeout(function(){  
-			$('.window-container.'+type).addClass('window-container-visible');  
+			$('.window-container.'+type).addClass('window-container-visible'); 
+			//$('.modalDialog').css('z-index','99999'); 
 			}, 100);    
 		});  
 	});  
