@@ -192,17 +192,17 @@
                                         </ul>
                                     </h1>
                                     <img src="assets/images/man-thumb.svg" alt="TEFL Academy"/>
-                                    <ul>
+                                    <ul >
                                         <li>
-                                            <p>Q. Why did you choose The TEFL Academy instead of another TEFL company? </p>
+                                            <p class="questions">Q. Why did you choose The TEFL Academy instead of another TEFL company? </p>
                                             <span>A. Best reputation, best resources, recognized worldwide.</span>
                                         </li>
                                         <li>
-                                            <p>Q. Did the course live up to your expectations? </p>
+                                            <p class="questions">Q. Did the course live up to your expectations? </p>
                                             <span>A. It was great! The whole weekend was full of useful information given by clear and engaging methods. The teacher was lovely and a friendly and helpful attitude was contagious among the students. I can really see myself teaching a class of my own after learning how to plan and manage a classroom, and the practice lesson gave me a positive boost of confidence.</span>
                                         </li>
                                         <li>
-                                            <p>Q. Do you have any comments about your TEFL trainer?</p>
+                                            <p class="questions">Q. Do you have any comments about your TEFL trainer?</p>
                                             <span>A. She had a fantastic, yet relaxed attitude to teaching and she knew what it was like to be in our position and, as a result, had all the right answers to our questions. She was clear and engaging and left me feeling confident that I had taken in everything that I need to know to teach my own class.</span>
                                         </li>
                                     </ul>
@@ -220,15 +220,15 @@
                                     <img src="assets/images/woman-thumb.svg" alt="TEFL Academy"/>
                                     <ul>
                                         <li>
-                                            <p>Q. Why did you choose The TEFL Academy instead of another TEFL company? </p>
+                                            <p class="questions">Q. Why did you choose The TEFL Academy instead of another TEFL company? </p>
                                             <span>A. Best reputation, best resources, recognized worldwide.</span>
                                         </li>
                                         <li>
-                                            <p>Q. Did the course live up to your expectations? </p>
+                                            <p class="questions">Q. Did the course live up to your expectations? </p>
                                             <span>A. It was great! The whole weekend was full of useful information given by clear and engaging methods. The teacher was lovely and a friendly and helpful attitude was contagious among the students. I can really see myself teaching a class of my own after learning how to plan and manage a classroom, and the practice lesson gave me a positive boost of confidence.</span>
                                         </li>
                                         <li>
-                                            <p>Q. Do you have any comments about your TEFL trainer?</p>
+                                            <p class="questions">Q. Do you have any comments about your TEFL trainer?</p>
                                             <span>A. She had a fantastic, yet relaxed attitude to teaching and she knew what it was like to be in our position and, as a result, had all the right answers to our questions. She was clear and engaging and left me feeling confident that I had taken in everything that I need to know to teach my own class.</span>
                                         </li>
                                     </ul>

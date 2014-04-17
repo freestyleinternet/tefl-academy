@@ -45,6 +45,7 @@
 		text-align:left;
 		font-size:em(18);
 		line-height:42px;
+		font-family: 'latolight';
 		@include bp(tablet) {
 			text-align:right;
 			font-size:em(21);
@@ -76,6 +77,7 @@
 			 text-indent:em(14);
 			 border-bottom:1px solid #eaefc9;
 			 background:rgba(172,192,38,0.1);
+			 font-family: 'latolight';
 			&:hover {
 				 background:rgba(172,192,38,0.1) url(#{$assetPath}/subnav-green-arrow.svg) no-repeat 96% center;
 			}

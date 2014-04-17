@@ -141,9 +141,12 @@ nav li ul:not( :hover ) li.active a {
 			background: $brand-dark;
 			&.toggle {
 				position:relative;
-				top:-3px;
+				top:-2px;
 				padding:0;
 				background:none;
+				@media screen and (-webkit-min-device-pixel-ratio:0) {
+					top:-1px;
+				}
 			}
 			&.last {
 				position:absolute;

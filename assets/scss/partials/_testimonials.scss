@@ -47,8 +47,12 @@
 			li {
 				margin-right:em(16);
 				p {
-					color:$brand-dark;
+					color:$brand-light;
 					font-size:em(14);
+					&.questions {
+						color:#5f9531;
+						display:block;
+					}
 				}
 				span {
 					font-size:em(14);
@@ -63,7 +67,8 @@
 		&:last-child {
 			margin-bottom:em(26);
 		}
-	}	
+	}
+	
 }
 h1 ul.container-star {
 	float:right;

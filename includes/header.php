@@ -164,7 +164,7 @@
                 <h1>50% OFF</h1>
                 <p>Special offer ends</p>
                 <p class="smallerline">28th February 2014</p>
-                <p class="smallerlinetwo">Was &pound;350 - Now Only &pound;175</p>
+                <p class="smallerlinetwo">Was &pound;349 - Now Only &pound;175</p>
                 <a class="button-light oarrow fixedwidthmodaloarrow orange" href="#">ENROL NOW <span></span></a>
             </div>
         </div>
@@ -220,7 +220,7 @@
             	<div class="contact displaymobile">
                     <p><img src="assets/images/phone-icon-orange-mobile.svg" alt="TEFL Academy Phone Number"/><span>01273 806 380</span></p>
                 </div>
-       	    	<a class="logo" href="index.php"></a>
+       	    	<a class="logo" href="index.php"><img src="assets/images/tefl-logo.png" alt="TEFL Academy Phone Number"/></a>
                 <div class="searchmobile displaymobile">
                 	<form class="search-form" action="#" method="post">
                         <input class="search" type="text" placeholder="Search">

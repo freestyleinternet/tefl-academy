@@ -48,6 +48,9 @@
 			font-weight:400;
 			margin:0;
 		}
+		h1 {
+			font-weight:600;
+		}
 		.location {
 			width:12%;
 		}
@@ -64,6 +67,7 @@
 	}
 	p {
 		color:$body-copy;
+		font-size:em(14);
 	}
 	.button-light {
 		right:em(28);
@@ -211,6 +215,7 @@
 	border-bottom:2px solid #eaefca;
     cursor: pointer;
 	color:#fff;
+	font-family: 'latolight';
 	@include bp(tablet) {
 		line-height:50px;
 		font-size:em(22);
@@ -608,6 +613,7 @@ figure {
 		color:#fff;
 		text-align:center;
 		font-size:em(18);
+		font-family: 'latolight';
 		background:$brand-orange;
 		&.green {
 			background:$brand-dark;
