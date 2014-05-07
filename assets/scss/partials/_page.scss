@@ -211,6 +211,19 @@ section.banner {
 	margin-top:em(26);
 }
 
+ .ihcustomlb {     
+	margin:0;       
+	width:100%;     
+	padding:0;        
+	overflow: hidden;   
+	border:none;
+}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+.fb_iframe_widget #u_0_4 {
+	color:#f00 !important;
+}
 
 /*  Buttons */
 .button-light {
@@ -996,6 +1009,10 @@ h2.title {
 	background:$brand-lighter;
 	@include bp(tablet) {
 		display:block;
+		height:310px;
+	}
+	@include bp(desktop) {
+		height:auto;
 		min-height:310px;
 	}
 	h1 {
