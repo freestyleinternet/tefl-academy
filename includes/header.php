@@ -1,5 +1,5 @@
 <?php	
-	//$siteurl = "http://localhost/tefl-academy/";
+	//$siteurl = "http://localhost:8888/tefl-academy/";
 	$siteurl = "http://theteflacademy.freestyleinternet.co.uk/";
 	$file = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 	
@@ -93,6 +93,18 @@
 		 $pageactive          = "class='page'";
 		 break;
 	case $siteurl."call-back-request.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."product-shop.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."product-single.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."payment-thank-you.php":
+		 $pageactive          = "class='page'";
+		 break;
+	case $siteurl."search-results.php":
 		 $pageactive          = "class='page'";
 		 break;
 	default:

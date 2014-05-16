@@ -1435,6 +1435,16 @@ section {
 	&.spacerbottom {
 		margin-bottom:em(26);
 	}
+	&.shop {
+		display:inline-block; 
+		height:800px;
+		@include bp(tablet) {
+			height:900px;
+		}
+		@include bp(desktop) {
+			height:900px;
+		}
+	}
 }
 aside {
 	margin-top:em(26);

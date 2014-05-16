@@ -23,9 +23,6 @@ Version: 1.0
 // Globals
 @import "partials/global";
 
-//Grid Set by Mark Boulton
-@import "partials/gridset";
-
 // Page and Site Styles
 @import "partials/page";
 @import "partials/forms";
@@ -42,6 +39,7 @@ Version: 1.0
 @import "partials/maps";
 @import "partials/slideshow";
 @import "partials/nav";
+@import "partials/shop";
 
 
 // Helper Classes, Media Queries, Print, Etc

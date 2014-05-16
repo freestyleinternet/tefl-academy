@@ -36,6 +36,8 @@
 	@include bp(desktop) {
 		min-height:em(182);
 	}
+	
+	
 	header {
 		width:100%;
 		display:inline-block;
@@ -73,6 +75,10 @@
 		right:em(28);
 		bottom:em(28);
 	}
+}
+.container-jobs.search-results-page article {
+	height:auto;
+	min-height:em(150);
 }
 .student-areas {
 	margin-top:em(26);

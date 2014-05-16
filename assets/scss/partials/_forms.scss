@@ -47,7 +47,8 @@ input[type=submit] {
 	border:none;
 	font-family: 'latolight';
 }
-input[type=submit].buttontype {
+input[type=submit].buttontype,
+#msform input[type=submit].buttontype {
 	float:right;
 	width:auto;
 	min-height:30px;

@@ -93,7 +93,7 @@
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/main.min.js"></script>
 	<script type="text/javascript" src="assets/js/source/twitterfeed.js"></script>
-
+	<script type="text/javascript" src="assets/js/source/jquery.easing.min.js"></script>
     
     <!-- Datamaps Source -->
     <script type="text/javascript" src="http://cdn.jsdelivr.net/gmap3/5.1.1/gmap3.min.js"></script>
@@ -346,5 +346,6 @@
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+
 </body>
 </html>

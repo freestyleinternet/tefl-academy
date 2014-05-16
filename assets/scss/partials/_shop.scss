@@ -1,0 +1,280 @@
+.shop-product-list {
+	article {
+		position:relative;
+		width:100%;
+		padding:em(18) em(20) em(55) em(20);
+		background:rgba(172,192,38,0.15);
+		margin-top:em(26);
+		header {
+			width:100%;
+			display:inline-block;
+			margin:0 0 em(3) 0;
+			h1, p {
+				float:left;
+				color:$body-copy;
+				font-size:em(21);
+				font-weight:400;
+				margin:0;
+			}
+			h1 {
+				font-weight:600;
+				text-transform:uppercase;
+			}
+			p {
+				float:right;
+				font-size:em(14);
+				color:$brand-orange;
+			}
+		}
+		img {
+			float:left;
+			display:inline-block;
+			margin-top:em(3);
+			margin-right:em(22);
+		}
+		h2 {
+			font-size:em(16);
+			color:$brand-orange;
+			margin-bottom:em(15);
+		}
+		p {
+			color:$body-copy;
+			font-size:em(14);
+			displfay:block;
+			margin-bottom:em(8);
+			overflow: hidden;
+		}
+		.button-light {
+			right:em(28);
+			bottom:em(28);
+		}
+	}
+}
+
+.product_details {
+	.product_price {
+		width:100%;
+		text-align:right;
+		font-size:em(21);
+		color:$brand-dark;
+		margin-bottom:em(8);
+	}
+	span {
+		float:right;
+		margin-right:em(10);
+		line-height:30px;
+	}
+	fieldset label {
+		width:100%;
+		@include bp(tablet) {
+			width:auto;
+		}
+	}
+	input {
+		float:right;
+		margin-bottom:em(8);
+		@include bp(tablet) {
+			width:auto;
+		}
+	}
+	input[type=submit].buttontype {
+		float:right;
+		margin-left:em(10);
+		margin-bottom:em(20);
+	}
+}
+
+/*form styles*/
+#msform {
+	width:100%;
+	height:auto;
+	display:inline-block;
+	margin: 0 auto em(26) 0;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	border: 0 none;
+	padding: 20px 0;
+	box-sizing: border-box;
+	width:100%;
+	height:auto;
+	margin: 0;
+	/*stacking fieldsets above each other*/
+	position: absolute;
+	p {
+		font-size:em(14);
+		text-align:left;
+		margin-bottom:em(26);
+	}
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+#msform label {
+	float:left;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	color:$brand-dark;
+	font-size:em(14);
+	text-align:left;
+	margin-bottom:10px;
+	@include bp(tablet) {
+		width:15%;
+	}
+}
+#msform input, #msform textarea {
+	float:left;
+	width:100%;
+	border:1px solid $brand-dark;
+	margin-bottom:em(10);
+	@include bp(tablet) {
+		float:right;
+		width:80%;
+	}
+}
+/*buttons*/
+#msform .action-button,
+.buttontypeorange,
+#msform .previous {
+	float:right;
+	width:auto;
+	min-height:30px;
+	display:block;
+	padding-left:em(16);
+	padding-right:46px;
+	color:#fff;
+	font-size:em(15);
+	font-weight:400;
+	border:none;
+	margin-left:em(15);
+	background:$brand-dark url(#{$assetPath}/submit-arrow.svg) no-repeat top right;
+}
+#msform .previous {
+	padding-right:em(16);
+	padding-left:46px;
+	background:$brand-dark url(#{$assetPath}/submit-arrow-left.svg) no-repeat top left;
+}
+#msform input.buttontypeorange {
+	float:right;
+	width:auto;
+	border:none;
+	padding-right:em(16);
+	background:$brand-orange;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	
+}
+
+/*headings*/
+#msform h2.fs-title {
+	font-size:em(21);
+	text-transform: uppercase;
+	color:$brand-dark;
+	margin-bottom: 10px;
+	text-align:left;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+	display:none;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom:em(8);
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+	list-style-type: none;
+	color:#000;
+	text-transform: uppercase;
+	font-size:em(12);
+	text-align:center;
+	width: 25%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 30px;
+	height:30px;
+	line-height: 33px;
+	display: block;
+	font-size:em(21);
+	color: #fff;
+	background:$brand-orange;
+	margin: 0 auto 10px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background:$brand-orange;
+	position: absolute;
+	left: -50%;
+	top: 15px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background:$brand-dark;
+	color:#fff;
+}
+
+.det-table{ border:none; padding-bottom:14px;}
+.det-table tr.head td { background:#85b149; padding:5px 5px; color:#fff; border:none; font-size:em(16); }
+.det-table tr.head td a{ text-decoration:none;}
+.det-table tr.head td a:hover{ text-decoration:underline;}
+.det-table tr.altrow td{ background:#f1f1f7; padding:5px 5px; color:#757575; border:none; }
+.det-table tr td a{ color:#EC8C04; text-decoration:underline;}
+.det-table tr td a:hover{ text-decoration:none;}
+.det-table tr td{  
+	padding:5px 5px; 
+	input {
+		width:100% !important;
+		margin-bottom:0 !important;
+		text-align:center;
+	}
+	&.tf-first {
+		font-size:em(14);
+		text-align:right;
+	}
+	&.totalcost {
+		color:$brand-dark;
+		font-size:em(16);
+		font-weight:700;
+	}
+}
+table.basket {
+	width: 100%;
+}
+
+table.basket th {
+	text-align: left;
+}
+
+table.basket tr {
+	height: 30px;
+}
+
+ tr.basket_total {
+ 	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: black;
+}
+table.basket tr.basket_total td {
+	color: #000;
+}
