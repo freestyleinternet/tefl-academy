@@ -2,9 +2,12 @@
 	article {
 		position:relative;
 		width:100%;
-		padding:em(18) em(20) em(55) em(20);
+		padding:em(18) em(20) em(100) em(20);
 		background:rgba(172,192,38,0.15);
 		margin-top:em(26);
+		@include bp(tablet) {
+			padding:em(18) em(20) em(55) em(20);
+		}
 		header {
 			width:100%;
 			display:inline-block;
@@ -31,18 +34,25 @@
 			display:inline-block;
 			margin-top:em(3);
 			margin-right:em(22);
+			margin-bottom:em(20);
 		}
 		h2 {
-			font-size:em(16);
+			font-size:em(21);
 			color:$brand-orange;
 			margin-bottom:em(15);
+			clear:left;
 		}
 		p {
+			clear:left;
 			color:$body-copy;
 			font-size:em(14);
 			displfay:block;
 			margin-bottom:em(8);
 			overflow: hidden;
+			@include bp(tablet) {
+				clear:none;
+				margin-bottom:em(20);
+			}
 		}
 		.button-light {
 			right:em(28);
@@ -61,8 +71,10 @@
 	}
 	span {
 		float:right;
+		width:50%;
 		margin-right:em(10);
 		line-height:30px;
+		text-align:right;
 	}
 	fieldset label {
 		width:100%;
@@ -72,6 +84,7 @@
 	}
 	input {
 		float:right;
+		width:40%;
 		margin-bottom:em(8);
 		@include bp(tablet) {
 			width:auto;
@@ -81,6 +94,10 @@
 		float:right;
 		margin-left:em(10);
 		margin-bottom:em(20);
+		margin-top:em(10);
+		@include bp(tablet) {
+			margin-top:0;
+		}
 	}
 }
 

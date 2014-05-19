@@ -13,6 +13,43 @@
             </div>
             
             <div class="container-jobs search-results-page displaydesktop">
+                <h1>Search Results</h1>
+                <article>
+                	<a href="#">
+                    	<header>
+                            <h1>Brilliant teaching Opportunities in Thailand</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                        <div class="button-light oarrow absolutebr">Read More<span></span></div>
+                    </a>
+                </article>
+                <article>
+                	<a href="#">
+                    	<header>
+                            <h1>Brilliant teaching Opportunities in Thailand</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                        <div class="button-light oarrow absolutebr">Read More<span></span></div>
+                    </a>
+                </article>
+                <article>
+                	<a href="#">
+                    	<header>
+                            <h1>Brilliant teaching Opportunities in Thailand</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                        <div class="button-light oarrow absolutebr">Read More<span></span></div>
+                    </a>
+                </article>
+                <article>
+                	<a href="#">
+                    	<header>
+                            <h1>Brilliant teaching Opportunities in Thailand</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                        <div class="button-light oarrow absolutebr">Read More<span></span></div>
+                    </a>
+                </article>
                 
                 <article>
                 	<a href="#">
@@ -23,6 +60,7 @@
                         <div class="button-light oarrow absolutebr">Read More<span></span></div>
                     </a>
                 </article>
+                
                 <article>
                 	<a href="#">
                     	<header>
@@ -32,6 +70,7 @@
                         <div class="button-light oarrow absolutebr">Read More<span></span></div>
                     </a>
                 </article>
+                
                 <article>
                 	<a href="#">
                     	<header>
@@ -41,6 +80,27 @@
                         <div class="button-light oarrow absolutebr">Read More<span></span></div>
                     </a>
                 </article>
+                
+                <article>
+                	<a href="#">
+                    	<header>
+                            <h1>Brilliant teaching Opportunities in Thailand</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                        <div class="button-light oarrow absolutebr">Read More<span></span></div>
+                    </a>
+                </article>
+                
+                <article>
+                	<a href="#">
+                    	<header>
+                            <h1>Brilliant teaching Opportunities in Thailand</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                        <div class="button-light oarrow absolutebr">Read More<span></span></div>
+                    </a>
+                </article>
+                
                 <article>
                 	<a href="#">
                     	<header>

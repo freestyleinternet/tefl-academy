@@ -76,6 +76,11 @@
 		bottom:em(28);
 	}
 }
+.container-jobs.search-results-page h1 {
+	color:$brand-dark;
+	font-size:em(21);
+	margin-bottom:em(15);
+}
 .container-jobs.search-results-page article {
 	height:auto;
 	min-height:em(150);

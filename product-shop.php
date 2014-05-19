@@ -23,21 +23,22 @@
                     <p>In addition to the fundamental TEFL skills you will need, The TEFL Handbook also focuses on more practical support such as internet resources, lesson planning &amp; teacher/student relationships and provides useful teacher activities.</p>
                     <br>
                     <h2>The TEFL Handbook includes:</h2>
-                    <p><strong>Choices, Choices, Choices:</strong>&nbsp;Information on course types and teaching environments. Advice on teaching abroad. &nbsp;Help and resources for finding your first TEFL job.</p>
-                    <p><strong>Getting Used To It All:</strong>Syllabus, lesson planning, classroom space and equipment.</p>
-                    <p><strong>It&rsquo;s All About Relationships:</strong>Focus on teacher to student, teacher to teacher &amp; student to student relationships.</p>
-                    <p><strong>Listening:</strong>&nbsp;Listening skills and advice for teaching listening.</p>
-                    <p><strong>Reading:</strong>Advice for teaching reading, lesson plans and classroom reading activities.</p>
-                    <p><strong>Writing: </strong>Advice for teaching writing, lesson plans and classroom writing activities.</p>
-                    <p><strong>Vocabulary:</strong> &nbsp;What are words and how do they function&#63; Helping foreign language learners learn words. Principles of vocabulary introduction and review.</p>
-                    <p><strong>Grammar: </strong></span>The importance of understanding grammar. The main components of English grammar. Approaches to teaching grammar.</p>
-                    <p><strong>Survival Checklist:</strong> A list of top survival tips to help you in your first teaching job.</p>
+                    <p><strong>Choices, Choices, Choices:</strong><br>Information on course types and teaching environments. Advice on teaching abroad. &nbsp;Help and resources for finding your first TEFL job.</p>
+                    <p><strong>Getting Used To It All:</strong><br>Syllabus, lesson planning, classroom space and equipment.</p>
+                    <p><strong>It&rsquo;s All About Relationships:</strong><br>Focus on teacher to student, teacher to teacher &amp; student to student relationships.</p>
+                    <p><strong>Listening:</strong><br>Listening skills and advice for teaching listening.</p>
+                    <p><strong>Reading:</strong><br>Advice for teaching reading, lesson plans and classroom reading activities.</p>
+                    <p><strong>Writing: </strong><br>Advice for teaching writing, lesson plans and classroom writing activities.</p>
+                    <p><strong>Vocabulary:</strong><br>What are words and how do they function&#63; Helping foreign language learners learn words. Principles of vocabulary introduction and review.</p>
+                    <p><strong>Grammar: </strong><br>The importance of understanding grammar. The main components of English grammar. Approaches to teaching grammar.</p>
+                    <p><strong>Survival Checklist:</strong><br>A list of top survival tips to help you in your first teaching job.</p>
 						<div class="product_details">
                         <div class="product_price">&pound;20.00</div>
+                        <input type="text" class="tfp-qty displaymobile" name="quantity" value="1" size="2"/>
+                    	  <span class="displaymobile">Quantity :</span>
                         <input type="submit" class="buttontype add-to-cart" name="submit" value="Add to Basket"/>
-                        <input type="text" class="tfp-qty" name="quantity" value="1" size="2"/>
-                    	  <span>Quantity :</span>
-                        
+                        <input type="text" class="tfp-qty displaydesktop" name="quantity" value="1" size="2"/>
+                    	  <span class="displaydesktop">Quantity :</span>
                     </div>
                 </article>
                 
@@ -53,21 +54,22 @@
                     <p>In addition to the fundamental TEFL skills you will need, The TEFL Handbook also focuses on more practical support such as internet resources, lesson planning &amp; teacher/student relationships and provides useful teacher activities.</p>
                     <br>
                     <h2>The TEFL Handbook includes:</h2>
-                    <p><strong>Choices, Choices, Choices:</strong>&nbsp;Information on course types and teaching environments. Advice on teaching abroad. &nbsp;Help and resources for finding your first TEFL job.</p>
-                    <p><strong>Getting Used To It All:</strong>Syllabus, lesson planning, classroom space and equipment.</p>
-                    <p><strong>It&rsquo;s All About Relationships:</strong>Focus on teacher to student, teacher to teacher &amp; student to student relationships.</p>
-                    <p><strong>Listening:</strong>&nbsp;Listening skills and advice for teaching listening.</p>
-                    <p><strong>Reading:</strong>Advice for teaching reading, lesson plans and classroom reading activities.</p>
-                    <p><strong>Writing: </strong>Advice for teaching writing, lesson plans and classroom writing activities.</p>
-                    <p><strong>Vocabulary:</strong> &nbsp;What are words and how do they function&#63; Helping foreign language learners learn words. Principles of vocabulary introduction and review.</p>
-                    <p><strong>Grammar: </strong></span>The importance of understanding grammar. The main components of English grammar. Approaches to teaching grammar.</p>
-                    <p><strong>Survival Checklist:</strong> A list of top survival tips to help you in your first teaching job.</p>
+                    <p><strong>Choices, Choices, Choices:</strong><br>Information on course types and teaching environments. Advice on teaching abroad. &nbsp;Help and resources for finding your first TEFL job.</p>
+                    <p><strong>Getting Used To It All:</strong><br>Syllabus, lesson planning, classroom space and equipment.</p>
+                    <p><strong>It&rsquo;s All About Relationships:</strong><br>Focus on teacher to student, teacher to teacher &amp; student to student relationships.</p>
+                    <p><strong>Listening:</strong><br>Listening skills and advice for teaching listening.</p>
+                    <p><strong>Reading:</strong><br>Advice for teaching reading, lesson plans and classroom reading activities.</p>
+                    <p><strong>Writing: </strong><br>Advice for teaching writing, lesson plans and classroom writing activities.</p>
+                    <p><strong>Vocabulary:</strong><br>What are words and how do they function&#63; Helping foreign language learners learn words. Principles of vocabulary introduction and review.</p>
+                    <p><strong>Grammar: </strong><br>The importance of understanding grammar. The main components of English grammar. Approaches to teaching grammar.</p>
+                    <p><strong>Survival Checklist:</strong><br>A list of top survival tips to help you in your first teaching job.</p>
 						<div class="product_details">
                         <div class="product_price">&pound;20.00</div>
+                        <input type="text" class="tfp-qty displaymobile" name="quantity" value="1" size="2"/>
+                    	  <span class="displaymobile">Quantity :</span>
                         <input type="submit" class="buttontype add-to-cart" name="submit" value="Add to Basket"/>
-                        <input type="text" class="tfp-qty" name="quantity" value="1" size="2"/>
-                    	  <span>Quantity :</span>
-                        
+                        <input type="text" class="tfp-qty displaydesktop" name="quantity" value="1" size="2"/>
+                    	  <span class="displaydesktop">Quantity :</span>
                     </div>
                 </article>
                 
@@ -83,21 +85,22 @@
                     <p>In addition to the fundamental TEFL skills you will need, The TEFL Handbook also focuses on more practical support such as internet resources, lesson planning &amp; teacher/student relationships and provides useful teacher activities.</p>
                     <br>
                     <h2>The TEFL Handbook includes:</h2>
-                    <p><strong>Choices, Choices, Choices:</strong>&nbsp;Information on course types and teaching environments. Advice on teaching abroad. &nbsp;Help and resources for finding your first TEFL job.</p>
-                    <p><strong>Getting Used To It All:</strong>Syllabus, lesson planning, classroom space and equipment.</p>
-                    <p><strong>It&rsquo;s All About Relationships:</strong>Focus on teacher to student, teacher to teacher &amp; student to student relationships.</p>
-                    <p><strong>Listening:</strong>&nbsp;Listening skills and advice for teaching listening.</p>
-                    <p><strong>Reading:</strong>Advice for teaching reading, lesson plans and classroom reading activities.</p>
-                    <p><strong>Writing: </strong>Advice for teaching writing, lesson plans and classroom writing activities.</p>
-                    <p><strong>Vocabulary:</strong> &nbsp;What are words and how do they function&#63; Helping foreign language learners learn words. Principles of vocabulary introduction and review.</p>
-                    <p><strong>Grammar: </strong></span>The importance of understanding grammar. The main components of English grammar. Approaches to teaching grammar.</p>
-                    <p><strong>Survival Checklist:</strong> A list of top survival tips to help you in your first teaching job.</p>
+                    <p><strong>Choices, Choices, Choices:</strong><br>Information on course types and teaching environments. Advice on teaching abroad. &nbsp;Help and resources for finding your first TEFL job.</p>
+                    <p><strong>Getting Used To It All:</strong><br>Syllabus, lesson planning, classroom space and equipment.</p>
+                    <p><strong>It&rsquo;s All About Relationships:</strong><br>Focus on teacher to student, teacher to teacher &amp; student to student relationships.</p>
+                    <p><strong>Listening:</strong><br>Listening skills and advice for teaching listening.</p>
+                    <p><strong>Reading:</strong><br>Advice for teaching reading, lesson plans and classroom reading activities.</p>
+                    <p><strong>Writing: </strong><br>Advice for teaching writing, lesson plans and classroom writing activities.</p>
+                    <p><strong>Vocabulary:</strong><br>What are words and how do they function&#63; Helping foreign language learners learn words. Principles of vocabulary introduction and review.</p>
+                    <p><strong>Grammar: </strong><br>The importance of understanding grammar. The main components of English grammar. Approaches to teaching grammar.</p>
+                    <p><strong>Survival Checklist:</strong><br>A list of top survival tips to help you in your first teaching job.</p>
 						<div class="product_details">
                         <div class="product_price">&pound;20.00</div>
+                        <input type="text" class="tfp-qty displaymobile" name="quantity" value="1" size="2"/>
+                    	  <span class="displaymobile">Quantity :</span>
                         <input type="submit" class="buttontype add-to-cart" name="submit" value="Add to Basket"/>
-                        <input type="text" class="tfp-qty" name="quantity" value="1" size="2"/>
-                    	  <span>Quantity :</span>
-                        
+                        <input type="text" class="tfp-qty displaydesktop" name="quantity" value="1" size="2"/>
+                    	  <span class="displaydesktop">Quantity :</span>
                     </div>
                 </article>
                 
