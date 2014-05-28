@@ -136,6 +136,10 @@ object, embed, video {
 .infobox p.phone {
 	line-height:30px;
 	font-size:16px;
+	img {
+		width:20px;
+		height:20px;
+	}
 }
 .infobox p span {
 	position:relative;

@@ -164,7 +164,7 @@
                         <label for="tab-2">Special Offer</label>
                         <div class="tab-content-three">
                             <div class="content-box">
-                            	<img class="arrow" src="assets/images/sf-arrow-right.svg" alt="TEFL Academy"/>
+                            	<img class="arrow" src="assets/images/sf-arrow-right.svg" width="37" height="74" alt="TEFL Academy"/>
                                 <h1>BOOK NOW FOR</h1>
                                 <h2>50% OFF</h2>
                                 <h3>Special offer ends</h3>
@@ -316,7 +316,7 @@
                     
                     <div>
                         <input id="ac-5" name="accordion-1" type="checkbox" />
-                        <label for="ac-5"><img src="assets/images/hats-icon.svg" alt="TEFL Academy"/> What our 120 hour TEFL course includes</label>
+                        <label for="ac-5"><img src="assets/images/hats-icon.svg" width="23" height="17" alt="TEFL Academy"/> What our 120 hour TEFL course includes</label>
                         <article class="ac-large">
                             <ul class="ticklist">
                                   <li>20 Hour Weekend Classroom TEFL Courses in London</li>
@@ -331,7 +331,7 @@
                     
                     <div>
                         <input id="ac-6" name="accordion-1" type="checkbox" />
-                        <label for="ac-6"><img src="assets/images/books-icon.svg" alt="TEFL Academy"/> London TEFL course information</label>
+                        <label for="ac-6"><img src="assets/images/books-icon.svg" width="21" height="17" alt="TEFL Academy"/> London TEFL course information</label>
                         <article class="ac-large">
                             <ul class="ticklist">
                                   <li>20 Hour Weekend Classroom TEFL Courses in London</li>
@@ -346,7 +346,7 @@
                     
                     <div>
                         <input id="ac-7" name="accordion-1" type="checkbox" />
-                        <label for="ac-7"><img src="assets/images/marker-icon.svg" alt="TEFL Academy"/> How to ﬁnd us</label>
+                        <label for="ac-7"><img src="assets/images/marker-icon.svg" width="14" height="23" alt="TEFL Academy"/> How to ﬁnd us</label>
                         <article class="ac-large">
                              <ul class="ticklist">
                                   <li>20 Hour Weekend Classroom TEFL Courses in London</li>
@@ -361,7 +361,7 @@
                     
                     <div>
                         <input id="ac-8" name="accordion-1" type="checkbox" />
-                        <label for="ac-8"><img src="assets/images/book3-icon.svg" alt="TEFL Academy"/> How it works</label>
+                        <label for="ac-8"><img src="assets/images/book3-icon.svg" width="21" height="21" alt="TEFL Academy"/> How it works</label>
                         <article class="ac-large">
                             <ul class="ticklist">
                                   <li>20 Hour Weekend Classroom TEFL Courses in London</li>
@@ -376,7 +376,7 @@
                     
                     <div>
                         <input id="ac-9" name="accordion-1" type="checkbox" />
-                        <label for="ac-9"><img src="assets/images/prize-icon.svg" alt="TEFL Academy"/> Why we’re the best</label>
+                        <label for="ac-9"><img src="assets/images/prize-icon.svg" width="20" height="25" alt="TEFL Academy"/> Why we’re the best</label>
                         <article class="ac-large">
                             <ul class="ticklist">
                                   <li>20 Hour Weekend Classroom TEFL Courses in London</li>
@@ -391,7 +391,7 @@
                     
                      <div>
                         <input id="ac-10" name="accordion-1" type="checkbox" />
-                        <label for="ac-10"><img src="assets/images/hats-icon.svg" alt="TEFL Academy"/> What you’ll receive</label>
+                        <label for="ac-10"><img src="assets/images/hats-icon.svg" width="21" height="17" alt="TEFL Academy"/> What you’ll receive</label>
                         <article class="ac-large">
                             <ul class="ticklist">
                                   <li>20 Hour Weekend Classroom TEFL Courses in London</li>
@@ -406,7 +406,7 @@
                     
                      <div>
                         <input id="ac-11" name="accordion-1" type="checkbox" />
-                        <label for="ac-11"><img src="assets/images/howitworks-icon.svg" alt="TEFL Academy"/> How to get started</label>
+                        <label for="ac-11"><img src="assets/images/howitworks-icon.svg" width="19" height="21" alt="TEFL Academy"/> How to get started</label>
                         <article class="ac-large">
                             <ul class="ticklist">
                                   <li>20 Hour Weekend Classroom TEFL Courses in London</li>

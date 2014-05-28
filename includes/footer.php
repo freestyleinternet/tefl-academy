@@ -148,7 +148,7 @@
 											  address:val.address,
 											  //closeBoxURL: "assets/images/cross-infowindow.png",
 											  options:{
-												  content:'<div class="infobox" id="infoBox-"'+val.id+'"><h1>'+val.title+'<a href="#" class="close" onclick="javascript:closeInfo(this); return false;"></a> </h1><div id="bodyContent"><p class="address">'+val.address+'</p><p class="phone" ><img src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>'+val.phone+'</span></p><p><a href="mailto:'+val.emailad+'"><img src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> '+val.emailad+'</a></p><p><a href="'+val.pagelink+'"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></p><div class="downarrow"></div></div></div>',
+												  content:'<div class="infobox" id="infoBox-"'+val.id+'"><h1>'+val.title+'<a href="#" class="close" onclick="javascript:closeInfo(this); return false;"></a> </h1><div id="bodyContent"><p class="address">'+val.address+'</p><p class="phone" ><img src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>'+val.phone+'</span></p><p><a href="mailto:'+val.emailad+'"> '+val.emailad+'</a></p><p><a href="'+val.pagelink+'"><img src="assets/images/more-info-button.svg" alt="More Info"/></a></p><div class="downarrow"></div></div></div>',
 												  
 												   
 												   offset:{
@@ -217,7 +217,7 @@
 					address:val.address,
 					//closeBoxURL: "assets/images/cross-infowindow.png",
 						options:{
-							content:'<div class="infobox" id="infoBox-"'+val.id+'"><h1>'+val.title+'<a href="#" class="close" onclick="javascript:closeInfo(this); return false;"></a> </h1><div id="bodyContent"><p class="address">'+val.address+'</p><p class="phone" ><img src="assets/images/small-phone-icon.svg" alt="TEFL Academy Phone Number"/> <span>'+val.phone+'</span></p><p><a href="mailto:'+val.emailad+'"><img src="assets/images/email-icon.png" alt="TEFL Academy Email"/> '+val.emailad+'</a></p><p><a href="'+val.pagelink+'"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></p><div class="downarrow"></div></div></div>',
+							content:'<div class="infobox" id="infoBox-"'+val.id+'"><h1>'+val.title+'<a href="#" class="close" onclick="javascript:closeInfo(this); return false;"></a> </h1><div id="bodyContent"><p class="address">'+val.address+'</p><p class="phone" ><img src="assets/images/small-phone-icon.svg" width="20px" height="20px" alt="TEFL Academy Phone Number"/> <span>'+val.phone+'</span></p><p><a href="mailto:'+val.emailad+'"> '+val.emailad+'</a></p><p><a href="'+val.pagelink+'"><img class="phone" src="assets/images/more-info-button.svg" alt="More Info"/></a></p><div class="downarrow"></div></div></div>',
 							offset:{
 								y:-290,
 								x:-100
