@@ -98,7 +98,7 @@ object, embed, video {
 		left:50%;
 		width:124px;
 		height:24px;
-		margin-left:-12px;
+		margin-left:-23px;
 		background:url(#{$assetPath}/infowindow-downarrow.svg) no-repeat top left;
 	}
 }
@@ -119,7 +119,7 @@ object, embed, video {
 		width:11px;
 		height:12px;
 		display:block;
-		background:url(#{$assetPath}/cross-infowindow.png) no-repeat top left;	
+		background:url(#{$assetPath}/close-modal.svg) no-repeat top left;	
 	}
 }
 .infobox p {
@@ -137,9 +137,17 @@ object, embed, video {
 	line-height:30px;
 	font-size:16px;
 	img {
-		width:20px;
-		height:20px;
+		position:relative;
+		top:-5px;
+		width:15px;
+		height:15px;
 	}
+}
+.infobox img.buttontoinfo {
+	position:relative;
+	top:-6px;
+	width:100%;
+	min-height:20px;
 }
 .infobox p span {
 	position:relative;
