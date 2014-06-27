@@ -310,6 +310,15 @@
 					font-weight:400;
 				}
 			}
+			&.mobileenrole {
+				padding-bottom:0;
+				.button-light {
+					width:100%;
+				}
+				li span {
+					font-weight:700;
+				}
+			}
 		}
 	}
 	.article-list {
@@ -352,6 +361,12 @@
 	height: 500px;
 	@include bp(tablet) {
 		height: 500px;
+	}
+}
+.ac-container input:checked ~ article.ac-larger-two {
+	height: 670px;
+	@include bp(tablet) {
+		height: 800px;
 	}
 }
 .ac-container input:checked ~ article.ac-large.tableblock {

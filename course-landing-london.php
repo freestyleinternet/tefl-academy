@@ -244,18 +244,35 @@
                     <div>
                         <input id="ac-1" name="accordion-1" type="checkbox" />
                         <label for="ac-1">London Courses</label>
-                        <article class="ac-medium">
-                            <div class="listblock">
-                                <ul>
-                                    <li><strong>Degree Requirement:</strong> BA/BS Not Required</li>
-                                    <li><strong>Typical Contract Length:</strong> 12 months</li>
-                                    <li><strong>Peak Hiring Seasons:</strong> All Year Round</li>
-                                    <li><strong>Visa Info:</strong> Work visa or tourist visa depending on employer</li>
-                                    <li><strong>Typical Students:</strong> Business Professionals, Children</li>
-                                    <li><strong>Average Monthly Cost of Living <span>in &pound; GBP &amp; Local Currency:</strong> &pound;450-550 GBP (22,000–27,000 THB)</span></li>
-                                    <li><strong>Average Monthly Salary <span>iin &pound; GBP &amp; Local Currency:</strong> &pound;650-750 GBP (32,000–37,000 THB) Can save up to &pound;200 GBP /Mo</span></li>
+                        <article class="ac-larger-two">
+                        		<div class="listblock">
+                                <ul class="mobileenrole">
+                                    <li><strong>Dates 2014:</strong> 2/01 - 15/01</li>
+                                    <li><strong>Location:</strong> London British Museum</li>
+                                    <li><strong>Availability:</strong> 4 places Left</li>
+                                    <li><strong>Price:</strong> &pound;175</li>
+                                    <li><strong>Course type:</strong> 120 Hours</li>
+                                    <li><a class="button-light oarrow orange" href="#">ENROL<span></span></a></li>
                                 </ul>
+                                <ul class="mobileenrole">
+                                    <li><strong>Dates 2014:</strong> 2/01 - 15/01</li>
+                                    <li><strong>Location:</strong> London British Museum</li>
+                                    <li><strong>Availability:</strong> 4 places Left</li>
+                                    <li><strong>Price:</strong> &pound;175</li>
+                                    <li><strong>Course type:</strong> 120 Hours</li>
+                                    <li><a class="button-light oarrow orange" href="#">ENROL<span></span></a></li>
+                                </ul>
+                                <ul class="mobileenrole">
+                                    <li><strong>Dates 2014:</strong> 2/01 - 15/01</li>
+                                    <li><strong>Location:</strong> London British Museum</li>
+                                    <li><strong>Availability:</strong> 4 places Left</li>
+                                    <li><strong>Price:</strong> &pound;175</li>
+                                    <li><strong>Course type:</strong> 120 Hours</li>
+                                    <li><a class="button-light oarrow orange" href="#">ENROL<span></span></a></li>
+                                </ul>
+                               
                             </div>
+                            
                         </article>
                     </div>
                     <div>

@@ -163,9 +163,12 @@ table.tabstbl {
 }
 table.tabstbl  thead th {
 	text-align:center;
-	font-size:em(16);
+	font-size:em(11);
 	font-weight:400;
 	height:50px;
+	@include bp(desktop) {
+		font-size:em(16);
+	}
 	span {
 		clear:left;
 		float:left;
@@ -185,12 +188,19 @@ table.tabstbl  td, table.tabstbl  th {
 }
 table.tabstbl  td {
 	color:$body-copy;
-	text-align:center;
-	font-size:em(14);
+	text-align:left;
+	font-size:em(12);
 	height:50px;
 	background:#eaefc9;
+	@include bp(desktop) {
+		font-size:em(14);
+		text-align:center;
+	}
 	.button-light {
-		font-size:em(16);
+		font-size:em(12);
+		@include bp(desktop) {
+			font-size:em(16);
+		}
 	}
 	img {
 		display:block;
