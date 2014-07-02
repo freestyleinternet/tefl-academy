@@ -1790,6 +1790,14 @@ aside.typetwo {
     opacity: 1;  
 } 
 
+.scrollerbox-acc {
+	width:100%;
+	display:inline-block;
+	height:600px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	
+}
 /*  Twitter API */
 .scrollerbox-tweet {
 	width:100%;

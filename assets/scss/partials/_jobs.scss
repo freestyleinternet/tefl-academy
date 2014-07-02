@@ -364,10 +364,7 @@
 	}
 }
 .ac-container input:checked ~ article.ac-larger-two {
-	height: 670px;
-	@include bp(tablet) {
-		height: 800px;
-	}
+	height: 630px !important;
 }
 .ac-container input:checked ~ article.ac-large.tableblock {
     height: 373px;
